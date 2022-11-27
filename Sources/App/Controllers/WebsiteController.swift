@@ -31,63 +31,58 @@ struct WebsiteController: RouteCollection {
   }
   
   private func index(_ req: Request) async throws -> View {
-    let year = Calendar.current.component(.year, from: Date())
-    let context = IndexContext(year: String(year))
+    let context = IndexContext()
     return try await req.view.render("index", context)
   }
   
   private func about(_ req: Request) async throws -> View {
-    let year = Calendar.current.component(.year, from: Date())
-    let context = AboutContext(year: String(year))
+    let context = AboutContext()
     return try await req.view.render("about", context)
   }
   
   private func contact(_ req: Request) async throws -> View {
-    let year = Calendar.current.component(.year, from: Date())
-    let context = ContactContext(year: String(year))
+    let context = ContactContext()
     return try await req.view.render("contact", context)
   }
   
   private func cv(_ req: Request) async throws -> View {
-    let year = Calendar.current.component(.year, from: Date())
-    let context = CVContext(year: String(year))
+    let context = CVContext()
     return try await req.view.render("cv", context)
   }
   
   private func portfolio(_ req: Request) async throws -> View {
-    let year = Calendar.current.component(.year, from: Date())
-    let context = PortfolioContext(year: String(year))
+    let context = PortfolioContext()
     return try await req.view.render("portfolio", context)
   }
 }
 
 struct IndexContext: Encodable {
   let title = "Neurothrone"
-  let year: String
+  let now = Date()
   let activePage: ActivePage = .index
 }
 
 struct AboutContext: Encodable {
   let title = "About Me"
-  let year: String
+  let now = Date()
   let activePage: ActivePage = .about
 }
 
 struct ContactContext: Encodable {
   let title = "Contact Me"
-  let year: String
+  let now = Date()
   let activePage: ActivePage = .contact
 }
 
 
 struct CVContext: Encodable {
   let title = "CV"
-  let year: String
+  let now = Date()
   let activePage: ActivePage = .cv
 }
 
 struct PortfolioContext: Encodable {
   let title = "Portfolio"
-  let year: String
+  let now = Date()
   let activePage: ActivePage = .portfolio
 }
