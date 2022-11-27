@@ -5,6 +5,7 @@
 //  Created by Zaid Neurothrone on 2022-11-24.
 //
 
+import Foundation
 import Vapor
 
 struct WebsiteController: RouteCollection {
@@ -13,7 +14,8 @@ struct WebsiteController: RouteCollection {
   }
   
   private func index(_ req: Request) async throws -> View {
-    let context = IndexContext(year: Date().formatted(.dateTime.year()))
+    let year = Calendar.current.component(.year, from: Date())
+    let context = IndexContext(year: String(year))
     return try await req.view.render("index", context)
   }
 }
