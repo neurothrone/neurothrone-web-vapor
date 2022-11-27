@@ -27,6 +27,12 @@ public func configure(_ app: Application) throws {
   
   app.views.use(.leaf)
   
+  // Set log level
+//  app.logger.logLevel = .debug
+  
   // register routes
   try routes(app)
+  
+  // This will run the migrations on every app launch
+//  try app.autoMigrate().wait()
 }

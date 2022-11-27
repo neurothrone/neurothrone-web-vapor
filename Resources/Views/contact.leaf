@@ -1,0 +1,33 @@
+#extend("Shared/base"):
+#export("content"):
+
+<main class="container my-4 fs-5">
+  <header class="text-center">
+    <h2 class="color-prominent-primary">Zaid Neurothrone</h2>
+    <p><a class="interactive-element" href="mailto:zaid@neurothrone.tech">zaid@neurothrone.tech</a></p>
+    <img class="rounded-circle"
+         src="/img/zaid-small.png"
+         alt="Image of the author"
+         width="200">
+  </header>
+
+  <footer class="pt-3">
+    <ul class="list-inline text-center">
+      <li class="list-inline-item">
+        <a class="text-decoration-none"
+           href="https://github.com/neurothrone">
+          <i class="fa-brands fa-github-square fs-1 interactive-element"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="text-decoration-none"
+           href="https://www.linkedin.com/in/neurothrone">
+          <i class="fa-brands fa-linkedin fs-1 interactive-element"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</main>
+
+#endexport
+#endextend

@@ -1,0 +1,85 @@
+#extend("Shared/base"):
+#export("content"):
+
+<main class="container my-4 fs-5">
+  <!-- iOS Projects -->
+  <h2 class="color-prominent-primary">iOS Projects</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+    <!-- FastTrack-->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary">
+        <img class="card-img-top"
+             src="/img/projects/fast-track.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="#">FastTrack</a></h5>
+          <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed to reaching
+            your weekly fasted state hours' goal (every hour after the 12th hour mark).</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- WeInventory-->
+    <div class="col">
+      <div class="card h-100 bg-color-primary custom-border">
+        <img class="card-img-top"
+             src="/img/projects/we-inventory.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="#">WeInventory</a></h5>
+          <p class="card-text color-text-primary">An iOS app for tracking the items in your customizable inventories and
+            containing storages. Upcoming feature: Shareable Inventories. Why not share a Home inventory
+            with your household members.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gas Volume Calculator -->
+    <div class="col">
+      <div class="card h-100 bg-color-primary custom-border">
+        <img class="card-img-top"
+             src="/img/projects/gas-volume-calculator.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="#">Gas Volume Calculator</a></h5>
+          <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the <a
+                  class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- neurothrone.tech -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="neurothrone-tech">
+        <img class="card-img-top"
+             src="/img/projects/fast-track.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="#">neurothrone.tech</a></h5>
+          <p class="card-text color-text-primary">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little longer.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, Vapor, Postgres, HTML, CSS, Bootstrap, JavaScript</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Python Projects -->
+  <h2 class="color-prominent-primary my-3">Python Projects</h2>
+</main>
+
+#endexport
+#endextend

@@ -1,0 +1,6 @@
+/** navbar.css */
+
+.navbar {
+    background-color: var(--bg-color-primary) !important;
+    box-shadow: 0 0.05em 0.5em 0.05em var(--bg-color-primary);
+}

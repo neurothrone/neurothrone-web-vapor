@@ -1,5 +1,15 @@
-#extend("base"):
+#extend("Shared/base"):
 #export("content"):
+
+<main class="container my-4 fs-5">
+  <p>I am an iOS Developer that is passionate about software development for all the platforms in the Apple ecosystem.
+    I'm currently learning and sharpening my skills in Apple's Augmented Reality frameworks and tools to prepare for
+    their upcoming AR/VR headset and its platform.</p>
+
+  <p>I also create things with Python and dabble in other technologies.</p>
+
+  <p>Feel free to <a class="interactive-element" href="/contact">reach out</a>.</p>
+</main>
 
 #endexport
 #endextend

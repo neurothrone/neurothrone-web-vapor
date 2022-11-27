@@ -1,0 +1,159 @@
+#extend("Shared/base"):
+#export("content"):
+
+<main class="container my-4 fs-5">
+  <section class="mb-5">
+
+    <!-- Proficient -->
+    <h2 class="color-prominent-primary">Proficient</h2>
+    <hr>
+    <p><strong class="color-prominent-secondary">Swift/SwiftUI</strong></p>
+    <ul>
+      <li>Multi-platform development (iOS, iPadOS, macOS, watchOS)</li>
+      <li>Databases (Core Data, CloudKit, Firebase, Realm)</li>
+      <li>AR (ARKit, RealityKit, Reality Composer, Reality Converter)</li>
+      <li>Server side Swift (Vapor)</li>
+      <li>SiriKit, MapKit, Custom Swift packages</li>
+    </ul>
+    <hr>
+    <p><strong class="color-prominent-secondary">Python</strong>
+    <ul>
+      <li>Web frameworks (FastAPI, Flask, Django)</li>
+      <li>Python Data Analysis (Pandas, Numpy)</li>
+    </ul>
+    <hr>
+    <p><strong class="color-prominent-secondary">Version Control &rarr; </strong>Git</p>
+    <hr>
+  </section>
+
+  <!-- Good working knowledge -->
+  <section class="mb-5">
+    <h2 class="color-prominent-primary">Good working knowledge</h2>
+    <hr>
+    <p><strong class="color-prominent-secondary">Android Development &rarr; </strong>Android Studio, Kotlin</p>
+    <hr>
+    <p><strong class="color-prominent-secondary">Web Technologies</strong></p>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS (including Boostrap framework)</li>
+      <li>JavaScript (including HTMX library</li>
+    </ul>
+    <hr>
+    <p><strong class="color-prominent-secondary">OS/Containers &rarr; </strong>macOS, Windows, Linux, Docker</p>
+    <hr>
+    <p><strong class="color-prominent-secondary">Project management methodologies &rarr; </strong>Agile (Scrum, Kanban)
+    </p>
+    <hr>
+    <p><strong class="color-prominent-secondary">SQL &rarr; </strong>SQLite, MySQL, Postgres</p>
+    <hr>
+    <p><strong class="color-prominent-secondary">NoSQL &rarr; </strong>MongoDB</p>
+    <hr>
+    <p><strong class="color-prominent-secondary">C++/C# &rarr; </strong>Console & GUI development</p>
+    <hr>
+    <p><strong class="color-prominent-secondary">Unity &rarr; </strong>Game-, Tool- and VR development</p>
+    <hr>
+    <p><strong class="color-prominent-secondary">Unreal Engine &rarr; </strong>Game-, Cinematic and VR development</p>
+    <hr>
+    <p><strong class="color-prominent-secondary">3D Modeling &rarr; </strong>Blender</p>
+    <hr>
+  </section>
+
+  <!-- Basic skills -->
+  <section class="mb-5">
+    <h2 class="color-prominent-primary">Basic skills</h2>
+    <hr>
+    <p><strong class="color-prominent-secondary">Code &rarr; </strong>C, Java, PHP</p>
+    <p><strong class="color-prominent-secondary">Design &rarr; </strong>Figma, Adobe XD</p>
+    <hr>
+  </section>
+
+  <!-- Work Experience -->
+  <section class="mb-5">
+    <h2 class="color-prominent-primary">Work Experience</h2>
+    <hr>
+    <p><span class="color-prominent-secondary">2022 Jul - Aug &rarr; </span>Gas Volume Calculator of pipes for
+      electricians. Multiplatform app (iOS, Android, Web).</p>
+    <hr>
+    <p><span class="color-prominent-secondary">2020 Mar - Apr &rarr; </span>VR Conference pitch & demo prototype. Unreal
+      Engine.</p>
+    <hr>
+    <p><span class="color-prominent-secondary">2015 &rarr; </span>Intern. Private medical practice, Neurology @ Basra, Iraq</p>
+    <hr>
+    <p><span class="color-prominent-secondary">2012 - 2013 &rarr; </span>Preparing and serving food at events. Private
+      catering firm. Stockholm, Sweden.</p>
+    <hr>
+    <p><span class="color-prominent-secondary">2010 - 2011 &rarr; </span>Food preparation & dishwashing
+      responsibilities.
+      Part-time employee. Sigtuna Boarding School @ Stockholm, Sweden</p>
+    <hr>
+    <p><span class="color-prominent-secondary">2008 - 2009 &rarr; </span>Cashier, waiter and food preparation
+      responsibilities. Managed accounting. Yngling Restaurant & Party floor @ Stockholm, Sweden</p>
+    <hr>
+    <p><span class="color-prominent-secondary">2005 - 2007 &rarr; </span>Worked as a cashier. Managed purchases,
+      logistics and accounting. Tages Games & Tobacco @ Stockholm, Sweden</p>
+    <hr>
+  </section>
+
+  <!-- Education -->
+  <section class="mb-5">
+    <h2 class="color-prominent-primary">Education</h2>
+    <hr>
+    <p><span class="color-prominent-secondary">2022 Sep - Present &rarr; </span>iPhone & Android Developer.
+      <span class="color-text-secondary">
+        <a class="interactive-element"
+           href="https://my.se/">Malmö Yrkeshögskola @ Malmö, Sweden</a>
+      </span>
+    </p>
+    <hr>
+    <p><span class="color-prominent-secondary">2021 Aug - 2022 Mar &rarr; </span>Python Developer specializing in AI.
+      <span class="color-text-secondary">
+              <a class="interactive-element"
+                 href="https://teknikhogskolan.se/">
+        Teknikhögskolan @ Gothenburg, Sweden</a>
+      </span>
+    </p>
+    <hr>
+    <p><span class="color-prominent-secondary">2020 Jan - Jun &rarr; </span>Virtual Reality Developer.
+      <span class="color-text-secondary">
+        <a class="interactive-element"
+           href="https://nackademin.se/">Nackademin @ Stockholm, Sweden</a>
+      </span>
+    </p>
+    <hr>
+    <p><span class="color-prominent-secondary">2017 Aug - 2019 Jun &rarr;</span></p>
+
+    <ul>
+      <li>B.A Chemistry, Emphasis in Neuroscience.</li>
+      <li>Student representative in Student Council of Chemistry, Department Board of Chemistry and Science Faculty
+        Council
+      </li>
+    </ul>
+
+    <p><span class="color-text-secondary">
+              <a class="interactive-element"
+                 href="https://www.su.se/english/">
+        Stockholm University @ Stockholm, Sweden</a>
+      </span></p>
+    <hr>
+    <p><span class="color-prominent-secondary">2017 Mar - Jun &rarr; </span>Stand-alone course in Geochemistry.
+      <span class="color-text-secondary">
+              <a class="interactive-element"
+                 href="https://www.su.se/english/">
+        Stockholm University @ Stockholm, Sweden</a>
+      </span>
+    </p>
+    <hr>
+    <p><span class="color-prominent-secondary">2016 Jan - Jun &rarr; </span>Stand-alone courses in the social sciences (mostly Social
+      Anthropology).
+      <span class="color-text-secondary">
+              <a class="interactive-element"
+                 href="https://www.su.se/english/">
+        Stockholm University @ Stockholm, Sweden</a>
+      </span>
+    </p>
+    <hr>
+  </section>
+</main>
+
+#endexport
+#endextend

@@ -1,0 +1,19 @@
+/**
+ * The stylesheet for this website.
+ */
+
+@import "pages/index.css";
+@import "pages/about.css";
+@import "pages/contact.css";
+@import "pages/blog.css";
+@import "pages/cv.css";
+@import "pages/portfolio.css";
+
+@import "sections/navbar.css";
+@import "sections/main.css";
+@import "sections/footer.css";
+/*@import "sections/byline.css";*/
+
+@import "utils/colors.css";
+@import "utils/fonts.css";
+@import "utils/utils.css";

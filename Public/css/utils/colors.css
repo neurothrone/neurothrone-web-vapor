@@ -1,0 +1,66 @@
+/** colors.css */
+
+/*
+ * CSS Variables.
+ */
+:root {
+  --z-color-3: #9d4edd; /* Contrast semi-approved */
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b6b6b6;
+
+  --bg-color-primary: #151515;
+  --bg-color-secondary: #2a2a2a;
+  --bg-color-tertiary: #1d1d1d;
+
+  --color-interactive: #f5cb5c;
+  --color-prominent-primary: #d7a3ff;
+  --color-prominent-secondary: #a67de3;
+}
+
+.custom-border {
+  border-color: var(--color-prominent-secondary);
+}
+
+.bg-color-primary {
+  background-color: var(--bg-color-primary);
+}
+
+.bg-color-secondary {
+  background-color: var(--bg-color-secondary);
+}
+
+.bg-color-tertiary {
+  background-color: var(--bg-color-tertiary);
+}
+
+/* Links */
+.interactive-element {
+  color: var(--color-interactive)!important; /* Overrides bootstrap nav-link styling */
+  text-decoration: none;
+}
+
+.interactive-element:hover {
+  color: darkgoldenrod!important;
+}
+
+/* Override bootstrap active styling */
+.active {
+  border-bottom: solid 2px var(--color-interactive)!important;
+}
+
+.color-prominent-primary {
+  color: var(--color-prominent-primary);
+}
+
+.color-prominent-secondary {
+  color: var(--color-prominent-secondary);
+}
+
+.color-text-primary {
+  color: var(--color-text-primary);
+}
+
+.color-text-secondary {
+  color: var(--color-text-secondary);
+}

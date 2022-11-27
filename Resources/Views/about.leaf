@@ -1,0 +1,28 @@
+#extend("Shared/base"):
+#export("content"):
+
+<main class="container my-4 fs-5">
+  <article>
+    <p>My name is Zaid Neurothrone. I have had a life-long intellectual interest in the workings of the human mind and
+      its manifest complexities. I see myself as an experimentalist, and that’s why I have been preoccupied with
+      exploring a wide array of intellectual and academic interests, such as studying at university a social science
+      like social anthropology, as well as studying natural sciences like biology and chemistry. These studies have all
+      been attempts to try to discover how to express and work with my interests in the human mind. However, none of
+      these have been as stimulating and as fruitful for my way of approaching the world as programming has proven to be
+      ever since I was introduced to it under 2019. I am in particular interested by the experiential possibilities of
+      Augmented Reality, and how this natural user interface can paradigmatically alter and augment the way we approach
+      every facet of our technologically oriented societies and cultures.</p>
+
+    <p>As an AR-developer I will strive to be on the cutting edge and bandwagon of this paradigmatic technological and
+      medial shift. I hope to develop virtual tools and solutions to help everyone be as productive and creative as they
+      can be whilst striving to realize their goals, be it at home or in the workplace. I’m especially interested in
+      technical solutions that can help people with learning disabilities or cognitive disorders and illnesses – whether
+      it be dyslexia, ADHD or dementia – live a more fulfilled and productive life.</p>
+
+    <p>I believe AR will provide new tools to approach work and life, as well as making possible completely new ways of
+      crossing boundaries, coming together and sharing formative social experiences.</p>
+  </article>
+</main>
+
+#endexport
+#endextend

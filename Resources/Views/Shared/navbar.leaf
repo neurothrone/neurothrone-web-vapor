@@ -1,0 +1,47 @@
+<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container align-items-baseline">
+
+    <!-- Brand -->
+    <a class="navbar-brand interactive-element"
+       href="index.html"><span class="active">Neurothrone</span>
+    </a>
+
+    <!-- Hamburger menu -->
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#global-navigation"
+            aria-controls="global-navigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Links -->
+    <div class="collapse navbar-collapse" id="global-navigation">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link interactive-element"
+             href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link interactive-element"
+             href="contact.html">Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link interactive-element"
+             aria-current="page"
+             href="cv.html">CV
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link interactive-element"
+             href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
