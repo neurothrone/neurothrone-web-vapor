@@ -13,12 +13,12 @@ struct WebsiteController: RouteCollection {
   }
   
   private func index(_ req: Request) async throws -> View {
-    let context = IndexContext()
+    let context = IndexContext(year: Date().formatted(.dateTime.year()))
     return try await req.view.render("index", context)
   }
 }
 
 struct IndexContext: Encodable {
   let title = "Home"
-  let year: String = Date.now.formatted(.dateTime.year(.defaultDigits))
+  let year: String
 }
