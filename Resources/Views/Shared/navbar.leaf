@@ -3,7 +3,7 @@
 
     <!-- Brand -->
     <a class="navbar-brand interactive-element"
-       href="index.html"><span class="active">Neurothrone</span>
+       href="/"><span class="#if(activePage == "index"): active #endif">Neurothrone</span>
     </a>
 
     <!-- Hamburger menu -->
@@ -22,24 +22,24 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link interactive-element"
-             href="about.html">About</a>
+             href="/about"><span class="#if(activePage == "about"): active #endif">About</span></a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link interactive-element"
-             href="contact.html">Contact</a>
+             href="/contact"><span class="#if(activePage == "contact"): active #endif">Contact</span></a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link interactive-element"
              aria-current="page"
-             href="cv.html">CV
+             href="/cv"><span class="#if(activePage == "cv"): active #endif">CV</span></a>
           </a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link interactive-element"
-             href="portfolio.html">Portfolio</a>
+             href="/portfolio"><span class="#if(activePage == "portfolio"): active #endif">Portfolio</span></a>
         </li>
       </ul>
     </div>
