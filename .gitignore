@@ -8,4 +8,9 @@ db.sqlite
 .swiftpm
 .env
 
+# JetBrains cache
+.idea/*
+
+# Server files for SSL
 server*
+
