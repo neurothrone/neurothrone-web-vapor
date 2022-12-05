@@ -1,0 +1,15 @@
+#extend("Shared/base"):
+#export("content"):
+
+<main class="container my-4 fs-5">
+  <h2>Description</h2>
+
+  <h2>Images Carousel</h2>
+
+  <h3>Support</h3>
+  <p><a class="interactive-element" href="mailto:zaid@neurothrone.tech">zaid@neurothrone.tech</a></p>
+</main>
+
+#endexport
+#endextend
+
