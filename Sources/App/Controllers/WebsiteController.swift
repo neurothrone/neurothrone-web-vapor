@@ -14,6 +14,12 @@ enum ActivePage: String, Encodable {
        contact,
        cv,
        portfolio
+  
+  enum Project: String, Encodable {
+    case gasvo,
+         fastTrack,
+         weInventory
+  }
 }
 
 struct WebsiteController: RouteCollection {
