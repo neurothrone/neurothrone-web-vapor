@@ -17,14 +17,14 @@ struct WebsiteProjectsController: RouteCollection {
     mainRoutes.get("we-inventory", use: weInventoryPage)
   }
   
-  private func gasvoPage(_ req: Request) async throws -> View {
-    let context = IndexContext()
-    return try await req.view.render("Projects/gasvo", context)
-  }
-  
   private func fastTrackPage(_ req: Request) async throws -> View {
     let context = FastTrackContext()
     return try await req.view.render("Projects/fast-track", context)
+  }
+  
+  private func gasvoPage(_ req: Request) async throws -> View {
+    let context = IndexContext()
+    return try await req.view.render("Projects/gasvo", context)
   }
   
   private func weInventoryPage(_ req: Request) async throws -> View {
@@ -33,16 +33,16 @@ struct WebsiteProjectsController: RouteCollection {
   }
 }
 
-struct GasVoContext: Encodable {
-  let title = "GasVo"
-  let now = Date()
-  let activePage: ActivePage.Project = .gasvo
-}
-
 struct FastTrackContext: Encodable {
   let title = "FastTrack"
   let now = Date()
   let activePage: ActivePage.Project = .fastTrack
+}
+
+struct GasVoContext: Encodable {
+  let title = "GasVo"
+  let now = Date()
+  let activePage: ActivePage.Project = .gasvo
 }
 
 struct WeInventoryContext: Encodable {

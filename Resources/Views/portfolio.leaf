@@ -23,6 +23,23 @@
         </div>
       </div>
     </div>
+    
+    <!-- Gas Volume Calculator -->
+    <div class="col">
+      <div class="card h-100 bg-color-primary custom-border">
+        <img class="card-img-top"
+             src="/img/projects/gas-volume-calculator.jpeg"
+             alt="...">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo">GasVo</a></h5>
+          <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the <a
+                  class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
+        </div>
+      </div>
+    </div>
 
     <!-- WeInventory-->
     <div class="col">
@@ -42,22 +59,6 @@
       </div>
     </div>
 
-    <!-- Gas Volume Calculator -->
-    <div class="col">
-      <div class="card h-100 bg-color-primary custom-border">
-        <img class="card-img-top"
-             src="/img/projects/gas-volume-calculator.jpeg"
-             alt="...">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo">Gas Volume Calculator</a></h5>
-          <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the <a
-                  class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
-        </div>
-      </div>
-    </div>
   </div>
   <!-- endregion iOS Projects -->
 
