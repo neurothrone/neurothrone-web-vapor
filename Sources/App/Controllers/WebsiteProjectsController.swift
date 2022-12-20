@@ -23,12 +23,12 @@ struct WebsiteProjectsController: RouteCollection {
   }
   
   private func fastTrackPage(_ req: Request) async throws -> View {
-    let context = AboutContext()
+    let context = FastTrackContext()
     return try await req.view.render("Projects/fast-track", context)
   }
   
   private func weInventoryPage(_ req: Request) async throws -> View {
-    let context = ContactContext()
+    let context = WeInventoryContext()
     return try await req.view.render("Projects/we-inventory", context)
   }
 }

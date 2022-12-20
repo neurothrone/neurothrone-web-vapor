@@ -14,7 +14,7 @@
              src="/img/projects/fast-track.jpeg"
              alt="...">
         <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="#">FastTrack</a></h5>
+          <h5 class="card-title h3"><a class="interactive-element" href="/app/fast-track">FastTrack</a></h5>
           <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed to reaching
             your weekly fasted state hours' goal (every hour after the 12th hour mark).</p>
         </div>
