@@ -11,7 +11,7 @@
     <div class="col">
       <div class="card h-100 custom-border bg-color-primary">
         <img class="card-img-top"
-             src="/img/projects/fast-track.jpeg"
+             src="/img/projects/fast-track.jpg"
              alt="...">
         <div class="card-body">
           <h5 class="card-title h3"><a class="interactive-element" href="/app/fast-track">FastTrack</a></h5>
