@@ -10,7 +10,7 @@ import Vapor
 
 struct WebsiteProjectsController: RouteCollection {
   func boot(routes: RoutesBuilder) throws {
-    let mainRoutes = routes.grouped("app")
+    let mainRoutes = routes.grouped("portfolio")
     
     mainRoutes.get("gasvo", use: gasvoPage)
     mainRoutes.get("fast-track", use: fastTrackPage)
@@ -19,17 +19,17 @@ struct WebsiteProjectsController: RouteCollection {
   
   private func fastTrackPage(_ req: Request) async throws -> View {
     let context = FastTrackContext()
-    return try await req.view.render("Projects/fast-track", context)
+    return try await req.view.render("Portfolio/fast-track", context)
   }
   
   private func gasvoPage(_ req: Request) async throws -> View {
-    let context = IndexContext()
-    return try await req.view.render("Projects/gasvo", context)
+    let context = Gasvo.GasVoContext()
+    return try await req.view.render("Portfolio/gasvo", context)
   }
   
   private func weInventoryPage(_ req: Request) async throws -> View {
     let context = WeInventoryContext()
-    return try await req.view.render("Projects/we-inventory", context)
+    return try await req.view.render("Portfolio/we-inventory", context)
   }
 }
 
@@ -39,10 +39,12 @@ struct FastTrackContext: Encodable {
   let activePage: ActivePage.Project = .fastTrack
 }
 
-struct GasVoContext: Encodable {
-  let title = "GasVo"
-  let now = Date()
-  let activePage: ActivePage.Project = .gasvo
+extension Gasvo {
+  struct GasVoContext: Encodable {
+    let title = "GasVo"
+    let now = Date()
+    let activePage: ActivePage.Project = .gasvo
+  }
 }
 
 struct WeInventoryContext: Encodable {

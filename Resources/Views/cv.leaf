@@ -12,8 +12,8 @@
       <li>Multi-platform development (iOS, iPadOS, macOS, watchOS)</li>
       <li>Databases (Core Data, CloudKit, Firebase, Realm)</li>
       <li>AR (ARKit, RealityKit, Reality Composer, Reality Converter)</li>
-      <li>Server side Swift (Vapor)</li>
       <li>App Intents, SiriKit, MapKit, Custom Swift packages</li>
+      <li>Server side Swift (Vapor)</li>
     </ul>
     <hr>
     <p><strong class="color-prominent-secondary">Python</strong>

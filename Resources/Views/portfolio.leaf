@@ -1,8 +1,9 @@
 #extend("Shared/base"):
 #export("content"):
 
-        <!-- Main Content -->
+<!-- Main Content -->
 <main class="container my-4 fs-5">
+
   <!-- region iOS Projects -->
   <h2 class="color-prominent-primary">iOS Projects</h2>
 
@@ -14,7 +15,7 @@
              src="/img/projects/fast-track.jpg"
              alt="...">
         <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="/app/fast-track">FastTrack</a></h5>
+          <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/fast-track">FastTrack</a></h5>
           <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed to reaching
             your weekly fasted state hours' goal (every hour after the 12th hour mark).</p>
         </div>
@@ -31,7 +32,7 @@
              src="/img/projects/gas-volume-calculator.jpeg"
              alt="...">
         <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo">GasVo</a></h5>
+          <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/gasvo">GasVo</a></h5>
           <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the <a
                   class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
         </div>
@@ -74,10 +75,27 @@
              alt="">
         <div class="card-body">
           <h5 class="card-title h3"><a class="interactive-element" href="#">neurothrone.tech</a></h5>
-          <p class="card-text color-text-primary">Welcome! There is no turning back now.</p>
+          <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone.</p>
         </div>
         <div class="card-footer custom-border">
           <small class="color-text-secondary">Swift, Vapor, Postgres, HTML, CSS, Bootstrap, JavaScript</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- GasVo Web -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="gasvo-web">
+        <img class="card-img-top"
+             src=""
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo-web">GasVo</a></h5>
+          <p class="card-text color-text-primary">A web app for calculating gas volume in pipes following the <a
+                  class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Swift, Swift Packages, Vapor, HTML, CSS, Bootstrap, JavaScript</small>
         </div>
       </div>
     </div>
@@ -96,7 +114,7 @@
              src="/img/projects/weather-api.png"
              alt="">
         <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="https://zn-weather-api.herokuapp.com/">Weather
+          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/weather-api">Weather
             API</a></h5>
           <p class="card-text color-text-primary">An asynchronous Weather API that employs the <a
                   class="interactive-element" href="https://openweathermap.org/">OpenWeather</a> API to
@@ -115,13 +133,92 @@
              src="/img/projects/local-library.png"
              alt="">
         <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="https://zn-local-library.herokuapp.com/">Local
+          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/local-library">Local
             Library</a></h5>
           <p class="card-text color-text-primary">An asynchronous Web App and API for managing a local library of books.
             Books that you're reading, have read and will read.</p>
         </div>
         <div class="card-footer custom-border">
           <small class="color-text-secondary">Python, FastAPI, Postgres, JavaScript, HTMX</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project AIDA -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="project-aida">
+        <img class="card-img-top"
+             src=""
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/project-aida">Project
+            AIDA</a></h5>
+          <p class="card-text color-text-primary">A web app powered by the Django framework. It's preliminary called
+            AIDA, short for <span class="text-muted">Artificial Intelligence Data Advisor</span>. Its purpose is to allow a user to store and track a history of
+            measurable metrics, in an effort to keep a history of progress and to discover patterns through observations
+            and visualizations; manually and eventually through AI-assistance.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Python, Django, SQL, HTML, CSS, Bootstrap, JavaScript, HTMX</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pyhoot -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="pyhoot">
+        <img class="card-img-top"
+             src=""
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/Flaskeneers/Pyhoot">Pyhoot</a>
+          </h5>
+          <p class="card-text color-text-primary">A quiz web app that runs on your browser. Create your own
+            multiple-choice questions and send them to your friends and let them take it. It has a basic logic
+            authentication system and profile pages.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Python, Flask, NoSQL (MongoDB), HTML, CSS, Bootstrap, JavaScript</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Car Spare Parts Service -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="car-spare-parts-service">
+        <img class="card-img-top"
+             src=""
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element"
+                                       href="https://github.com/neurothrone/car-spare-parts-service">Car Spare Parts
+            Service</a>
+          </h5>
+          <p class="card-text color-text-primary">A web app for a fictional company that manages the whole spectrum for
+            a web store supplying car spare parts, from clients to manufacturers and suppliers.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Python, Flask, SQL (MySQL) NoSQL (MongoDB), HTML, CSS, Bootstrap,
+            JavaScript</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project DoT -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="project-dot">
+        <img class="card-img-top"
+             src=""
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/project-dot">Developers
+            of Teknikhögskolan</a></h5>
+          <p class="card-text color-text-primary">A portfolio web app for the aspiring developers of Teknikhögskolan to
+            showcase their work for future employers or people seeking to collaborate on other projects.</p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Python, Flask, SQL, SQLModel, HTML, CSS, Bootstrap, JavaScript,
+            HTMX</small>
         </div>
       </div>
     </div>
