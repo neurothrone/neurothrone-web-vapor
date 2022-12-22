@@ -159,7 +159,7 @@
             and visualizations; manually and eventually through AI-assistance.</p>
         </div>
         <div class="card-footer custom-border">
-          <small class="color-text-secondary">Python, Django, SQL, HTML, CSS, Bootstrap, JavaScript, HTMX</small>
+          <small class="color-text-secondary">Python, Django, SQL, HTML, CSS, Bootstrap, JavaScript, HTMX, Chart.js</small>
         </div>
       </div>
     </div>
