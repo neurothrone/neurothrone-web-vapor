@@ -18,15 +18,16 @@
           <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/fast-track">FastTrack</a></h5>
           <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed to reaching
             your weekly fasted state hours' goal (every hour after the 12th hour mark).</p>
-
-          <div class="text-center">
-            <a href="https://apps.apple.com/us/app/fasttrack-fast-timer-tracker/id1659998801?itsct=apps_box_badge&amp;itscg=30200"
-               style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
-                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671580800?h=d19c2e04b3683f9cdfac455ce928925e"
-                    alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
-            </a>
-          </div>
         </div>
+
+        <div class="text-center">
+          <a href="https://apps.apple.com/us/app/fasttrack-fast-timer-tracker/id1659998801?itsct=apps_box_badge&amp;itscg=30200"
+             style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
+                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671580800?h=d19c2e04b3683f9cdfac455ce928925e"
+                  alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
+          </a>
+        </div>
+
         <div class="card-footer custom-border">
           <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, App Intents</small>
         </div>
@@ -43,7 +44,16 @@
           <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/gasvo">GasVo</a></h5>
           <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the <a
                   class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+
         </div>
+
+        <div class="text-center">
+          <a href="https://apps.apple.com/us/app/gasvo/id6444937778?itsct=apps_box_badge&amp;itscg=30200"
+             style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
+                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671667200?h=455ddfd81afb3d9b3087eea61d4a0b91"
+                  alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+        </div>
+
         <div class="card-footer custom-border">
           <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
         </div>
