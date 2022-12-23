@@ -2,10 +2,6 @@
 #export("content"):
 
 <main class="container my-4 fs-5">
-  <h2 class="color-prominent-primary">Description</h2>
-
-  <h2 class="color-prominent-primary">Images</h2>
-
   <h2 class="color-prominent-primary">Privacy Policy</h2>
     <p>
         Zaid Neurothrone built the GasVo app as
