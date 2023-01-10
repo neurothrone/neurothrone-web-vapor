@@ -71,11 +71,26 @@
   <section class="mb-5">
     <h2 class="color-prominent-primary">Work Experience</h2>
     <hr>
-    <p><span class="color-prominent-secondary">2022 Jul - Aug &rarr; </span>Gas Volume Calculator of pipes for
-      electricians. Multiplatform app (iOS, Android, Web).</p>
+    <p>
+      <span class="color-prominent-secondary">2022 Nov - Dec &rarr; </span>
+      <a class="interactive-element"
+         href="https://apps.apple.com/us/app/fasttrack-fast-timer-tracker/id1659998801">FastTrack</a>.Fasting
+      Timer & Tracker multiplatform app (iOS, watchOS, macOS).
+    </p>
     <hr>
-    <p><span class="color-prominent-secondary">2020 Mar - Apr &rarr; </span>VR Conference pitch & demo prototype. Unreal
-      Engine.</p>
+    <p>
+      <span class="color-prominent-secondary">2022 Jul - Aug &rarr; </span>
+      <a class="interactive-element"
+         href="https://apps.apple.com/us/app/gasvo/id6444937778">GasVo</a>.
+      A gas pipe volume calculator app for
+      working professionals. Multiplatform (iOS, Android, Web).
+    </p>
+    <hr>
+    <p><span class="color-prominent-secondary">2020 Mar - Apr &rarr;
+        </span><a class="interactive-element"
+                  href="https://www.youtube.com/watch?v=GdfFpR6x67E">VR
+      Conference pitch & demo prototype</a>. Unreal Engine.
+    </p>
     <hr>
     <p><span class="color-prominent-secondary">2015 &rarr; </span>Intern. private medical (Neurology) practice @ Basra,
       Iraq</p>
