@@ -3,7 +3,7 @@
 
 <main class="container my-4 fs-5">
   <header class="text-center">
-    <h2 class="color-prominent-primary">Zaid Neurothrone</h2>
+    <h2 class="color-prominent-secondary">Zaid Neurothrone</h2>
     <p><a class="interactive-element" href="mailto:zaid@neurothrone.tech">zaid@neurothrone.tech</a></p>
     <img class="rounded-circle"
          src="/img/zaid-small.png"
