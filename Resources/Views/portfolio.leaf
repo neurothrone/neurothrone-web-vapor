@@ -67,7 +67,7 @@
              src="/img/projects/we-inventory.jpeg"
              alt="...">
         <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="#">WeInventory</a></h5>
+          <h5 class="card-title h3 color-prominent-secondary">WeInventory</h5>
           <p class="card-text color-text-primary">An iOS app for tracking the items in your customizable inventories and
             containing storages. Upcoming feature: Shareable Inventories. Why not share a Home inventory
             with your household members.</p>
@@ -89,10 +89,10 @@
     <div class="col">
       <div class="card h-100 custom-border bg-color-primary" id="neurothrone-tech">
         <img class="card-img-top"
-             src=""
+             src="/img/projects/neurothrone-tech.png"
              alt="">
         <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="#">neurothrone.tech</a></h5>
+          <h5 class="card-title h3 color-prominent-secondary">neurothrone.tech</h5>
           <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone.</p>
         </div>
         <div class="card-footer custom-border">
@@ -105,7 +105,7 @@
     <div class="col">
       <div class="card h-100 custom-border bg-color-primary" id="gasvo-web">
         <img class="card-img-top"
-             src=""
+             src="/img/projects/gasvo-web.png"
              alt="">
         <div class="card-body">
           <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo-web">GasVo</a></h5>
@@ -244,6 +244,116 @@
   </div>
   <!-- endregion Python Projects -->
 
+  <!-- region Unity Projects -->
+  <h2 class="color-prominent-primary mt-4">Unity Projects</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+    <!-- Zota the Ghost -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="zota-the-ghost">
+        <img class="card-img-top"
+             src="/img/projects/zota.png"
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3 color-prominent-secondary">Zota the Ghost</h5>
+          <p class="card-text color-text-primary">A reverse Haunted House game for PC where you are the Ghost
+            and must make the Guests leave.
+          </p>
+
+          <p><a class="interactive-element"
+                href="https://neurothrone.itch.io/zota-the-ghost">itch.io web demo (less optimized)</a>
+          </p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">C#, Unity, Blender</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Infestation -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="infestation">
+        <img class="card-img-top"
+             src="/img/projects/infestation.png"
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3 color-prominent-secondary">Infestation</h5>
+          <p class="card-text color-text-primary">A short and spooky shooter game for PC.
+          </p>
+          <p>
+            <a class="interactive-element"
+               href="https://neurothrone.itch.io/infestation">itch.io web demo (less optimized)</a>
+          </p>
+          <p>
+            <a class="interactive-element"
+               href="https://www.youtube.com/watch?v=42fixPY3F1I">YouTube</a>
+          </p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">C#, Unity</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- endregion Unity Projects -->
+
+  <!-- region UE Projects -->
+  <h2 class="color-prominent-primary mt-4">Unreal Engine Projects</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+    <!-- VR Conference -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="vr-conference">
+        <img class="card-img-top"
+             src="/img/projects/vr-conference.png"
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3 color-prominent-secondary">VR Conference</h5>
+          <p class="card-text color-text-primary">A VR conference demo in Unreal Engine to complement a
+            presentation on a pitch to a fictitious client.
+          </p>
+          <p>
+            <a class="interactive-element"
+               href="https://www.youtube.com/watch?v=GdfFpR6x67E">YouTube</a>
+          </p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Unreal Engine, Blender</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- endregion UE Projects -->
+
+  <!-- region 3D Projects -->
+  <h2 class="color-prominent-primary mt-4">3D Projects</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+    <!-- Purple Star -->
+    <div class="col">
+      <div class="card h-100 custom-border bg-color-primary" id="purple-star">
+        <img class="card-img-top"
+             src="/img/projects/purple-star.png"
+             alt="">
+        <div class="card-body">
+          <h5 class="card-title h3 color-prominent-secondary">The Purple Star</h5>
+          <p class="card-text color-text-primary">A short clip made with Blender in where my castle gets
+            destroyed. Insurance is not going to cover this.
+          </p>
+          <p>
+            <a class="interactive-element"
+               href="https://www.youtube.com/watch?v=U9F8QfazoDY">YouTube</a>
+          </p>
+        </div>
+        <div class="card-footer custom-border">
+          <small class="color-text-secondary">Blender</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- endregion 3D Projects -->
 </main>
 
 #endexport
