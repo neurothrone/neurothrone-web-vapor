@@ -18,7 +18,8 @@ enum ActivePage: String, Encodable {
   enum Project: String, Encodable {
     case gasvo,
          fastTrack,
-         weInventory
+         weInventory,
+         workWork
   }
 }
 
