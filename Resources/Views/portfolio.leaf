@@ -1,360 +1,404 @@
 #extend("Shared/base"):
-#export("content"):
+        #export("content"):
 
-<!-- Main Content -->
+        <!-- Main Content -->
 <main class="container my-4 fs-5">
 
-  <!-- region iOS Projects -->
-  <h2 class="color-prominent-primary">iOS Projects</h2>
+    <!-- region iOS Projects -->
+    <h2 class="color-prominent-primary">iOS Projects</h2>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-    <!-- FastTrack-->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary">
-        <img class="card-img-top"
-             src="/img/projects/fast-track.jpg"
-             alt="...">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/fast-track">FastTrack</a></h5>
-          <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed to reaching
-            your weekly fasted state hours' goal (every hour after the 12th hour mark).</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <!-- FastTrack -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top"
+                     src="/img/projects/fast-track.jpg"
+                     alt="...">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/fast-track">FastTrack</a>
+                    </h5>
+                    <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed
+                        to reaching
+                        your weekly fasted state hours' goal (every hour after the 12th hour mark).</p>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://apps.apple.com/us/app/fasttrack-fast-timer-tracker/id1659998801?itsct=apps_box_badge&amp;itscg=30200"
+                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
+                            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671580800?h=d19c2e04b3683f9cdfac455ce928925e"
+                            alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
+                    </a>
+                </div>
+
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, App Intents</small>
+                </div>
+            </div>
         </div>
 
-        <div class="text-center">
-          <a href="https://apps.apple.com/us/app/fasttrack-fast-timer-tracker/id1659998801?itsct=apps_box_badge&amp;itscg=30200"
-             style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
-                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671580800?h=d19c2e04b3683f9cdfac455ce928925e"
-                  alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
-          </a>
+        <!-- GasVo -->
+        <div class="col">
+            <div class="card h-100 bg-color-primary custom-border">
+                <img class="card-img-top"
+                     src="/img/projects/gas-volume-calculator.jpeg"
+                     alt="...">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/gasvo">GasVo</a></h5>
+                    <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the
+                        <a
+                                class="interactive-element"
+                                href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+
+                </div>
+
+                <div class="text-center">
+                    <a href="https://apps.apple.com/us/app/gasvo/id6444937778?itsct=apps_box_badge&amp;itscg=30200"
+                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
+                            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671667200?h=455ddfd81afb3d9b3087eea61d4a0b91"
+                            alt="Download on the App Store"
+                            style="border-radius: 13px; width: 250px; height: 83px;"></a>
+                </div>
+
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
+                </div>
+            </div>
         </div>
 
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, App Intents</small>
+        <!-- WorkWork -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top"
+                     src="/img/projects/workwork.jpeg"
+                     alt="...">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/workwork">WorkWork</a>
+                    </h5>
+                    <p class="card-text color-text-primary">An app for iOS and watchOS (also works as a standalone app)
+                        that helps you track and manage your tasks with a highly customizable and intuitive user
+                        interface.</p>
+                </div>
+
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- WeInventory -->
+        <!--    <div class="col">-->
+        <!--      <div class="card h-100 bg-color-primary custom-border">-->
+        <!--        <img class="card-img-top"-->
+        <!--             src="/img/projects/we-inventory.jpeg"-->
+        <!--             alt="...">-->
+        <!--        <div class="card-body">-->
+        <!--          <h5 class="card-title h3 color-prominent-secondary">WeInventory</h5>-->
+        <!--          <p class="card-text color-text-primary">An iOS app for tracking the items in your customizable inventories and-->
+        <!--            containing storages. Upcoming feature: Shareable Inventories. Why not share a Home inventory-->
+        <!--            with your household members.</p>-->
+        <!--        </div>-->
+        <!--        <div class="card-footer custom-border">-->
+        <!--          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>-->
+        <!--        </div>-->
+        <!--      </div>-->
+        <!--    </div>-->
+
     </div>
+    <!-- endregion iOS Projects -->
 
-    <!-- GasVo -->
-    <div class="col">
-      <div class="card h-100 bg-color-primary custom-border">
-        <img class="card-img-top"
-             src="/img/projects/gas-volume-calculator.jpeg"
-             alt="...">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/gasvo">GasVo</a></h5>
-          <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the <a
-                  class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+    <!-- region Server side Swift Projects -->
+    <h2 class="color-prominent-primary mt-4">Server side Swift Projects</h2>
 
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <!-- neurothrone.tech -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="neurothrone-tech">
+                <img class="card-img-top"
+                     src="/img/projects/neurothrone-tech.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">neurothrone.tech</h5>
+                    <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Swift, Vapor, Postgres, HTML, CSS, Bootstrap, JavaScript</small>
+                </div>
+            </div>
         </div>
 
-        <div class="text-center">
-          <a href="https://apps.apple.com/us/app/gasvo/id6444937778?itsct=apps_box_badge&amp;itscg=30200"
-             style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
-                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671667200?h=455ddfd81afb3d9b3087eea61d4a0b91"
-                  alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+        <!-- GasVo Web -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="gasvo-web">
+                <img class="card-img-top"
+                     src="/img/projects/gasvo-web.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo-web">GasVo</a></h5>
+                    <p class="card-text color-text-primary">A web app for calculating gas volume in pipes following the
+                        <a
+                                class="interactive-element"
+                                href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Swift, Swift Packages, Vapor, HTML, CSS, Bootstrap,
+                        JavaScript</small>
+                </div>
+            </div>
         </div>
 
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
-        </div>
-      </div>
     </div>
+    <!-- endregion Server side Swift Projects -->
 
-    <!-- WeInventory-->
-    <div class="col">
-      <div class="card h-100 bg-color-primary custom-border">
-        <img class="card-img-top"
-             src="/img/projects/we-inventory.jpeg"
-             alt="...">
-        <div class="card-body">
-          <h5 class="card-title h3 color-prominent-secondary">WeInventory</h5>
-          <p class="card-text color-text-primary">An iOS app for tracking the items in your customizable inventories and
-            containing storages. Upcoming feature: Shareable Inventories. Why not share a Home inventory
-            with your household members.</p>
+    <!-- region Python Projects -->
+    <h2 class="color-prominent-primary mt-4">Python Projects</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <!-- Weather API -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="weather-api">
+                <img class="card-img-top"
+                     src="/img/projects/weather-api.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element"
+                                                 href="https://github.com/neurothrone/weather-api">Weather
+                        API</a></h5>
+                    <p class="card-text color-text-primary">An asynchronous Weather API that employs the <a
+                            class="interactive-element" href="https://openweathermap.org/">OpenWeather</a> API to
+                        retrieve the current weather by city or coordinates.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Python, FastAPI, OpenWeather API</small>
+                </div>
+            </div>
         </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>
+
+        <!-- Local Library -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="local-library">
+                <img class="card-img-top"
+                     src="/img/projects/local-library.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element"
+                                                 href="https://github.com/neurothrone/local-library">Local
+                        Library</a></h5>
+                    <p class="card-text color-text-primary">An asynchronous Web App and API for managing a local library
+                        of books.
+                        Books that you're reading, have read and will read.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Python, FastAPI, Postgres, JavaScript, HTMX</small>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- Project AIDA -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="project-aida">
+                <img class="card-img-top"
+                     src=""
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element"
+                                                 href="https://github.com/neurothrone/project-aida">Project
+                        AIDA</a></h5>
+                    <p class="card-text color-text-primary">A web app powered by the Django framework. It's preliminary
+                        called
+                        AIDA, short for <span class="text-muted">Artificial Intelligence Data Advisor</span>. Its
+                        purpose is to allow a user to store and track a history of
+                        measurable metrics, in an effort to keep a history of progress and to discover patterns through
+                        observations
+                        and visualizations; manually and eventually through AI-assistance.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Python, Django, SQL, HTML, CSS, Bootstrap, JavaScript, HTMX,
+                        Chart.js</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pyhoot -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="pyhoot">
+                <img class="card-img-top"
+                     src=""
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element"
+                                                 href="https://github.com/Flaskeneers/Pyhoot">Pyhoot</a>
+                    </h5>
+                    <p class="card-text color-text-primary">A quiz web app that runs on your browser. Create your own
+                        multiple-choice questions and send them to your friends and let them take it. It has a basic
+                        logic
+                        authentication system and profile pages.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Python, Flask, NoSQL (MongoDB), HTML, CSS, Bootstrap,
+                        JavaScript</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Car Spare Parts Service -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="car-spare-parts-service">
+                <img class="card-img-top"
+                     src=""
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element"
+                                                 href="https://github.com/neurothrone/car-spare-parts-service">Car Spare
+                        Parts
+                        Service</a>
+                    </h5>
+                    <p class="card-text color-text-primary">A web app for a fictional company that manages the whole
+                        spectrum for
+                        a web store supplying car spare parts, from clients to manufacturers and suppliers.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Python, Flask, SQL (MySQL) NoSQL (MongoDB), HTML, CSS,
+                        Bootstrap,
+                        JavaScript</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project DoT -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="project-dot">
+                <img class="card-img-top"
+                     src=""
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3"><a class="interactive-element"
+                                                 href="https://github.com/neurothrone/project-dot">Developers
+                        of Teknikhögskolan</a></h5>
+                    <p class="card-text color-text-primary">A portfolio web app for the aspiring developers of
+                        Teknikhögskolan to
+                        showcase their work for future employers or people seeking to collaborate on other projects.</p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Python, Flask, SQL, SQLModel, HTML, CSS, Bootstrap, JavaScript,
+                        HTMX</small>
+                </div>
+            </div>
+        </div>
+
     </div>
+    <!-- endregion Python Projects -->
 
-  </div>
-  <!-- endregion iOS Projects -->
+    <!-- region Unity Projects -->
+    <h2 class="color-prominent-primary mt-4">Unity Projects</h2>
 
-  <!-- region Server side Swift Projects -->
-  <h2 class="color-prominent-primary mt-4">Server side Swift Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <!-- Zota the Ghost -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="zota-the-ghost">
+                <img class="card-img-top"
+                     src="/img/projects/zota.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">Zota the Ghost</h5>
+                    <p class="card-text color-text-primary">A reverse Haunted House game for PC where you are the Ghost
+                        and must make the Guests leave.
+                    </p>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-    <!-- neurothrone.tech -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="neurothrone-tech">
-        <img class="card-img-top"
-             src="/img/projects/neurothrone-tech.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3 color-prominent-secondary">neurothrone.tech</h5>
-          <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone.</p>
+                    <p><a class="interactive-element"
+                          href="https://neurothrone.itch.io/zota-the-ghost">itch.io web demo (less optimized)</a>
+                    </p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">C#, Unity, Blender</small>
+                </div>
+            </div>
         </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Swift, Vapor, Postgres, HTML, CSS, Bootstrap, JavaScript</small>
+
+        <!-- Infestation -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="infestation">
+                <img class="card-img-top"
+                     src="/img/projects/infestation.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">Infestation</h5>
+                    <p class="card-text color-text-primary">A short and spooky shooter game for PC.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://neurothrone.itch.io/infestation">itch.io web demo (less optimized)</a>
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://www.youtube.com/watch?v=42fixPY3F1I">YouTube</a>
+                    </p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">C#, Unity</small>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+    <!-- endregion Unity Projects -->
 
-    <!-- GasVo Web -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="gasvo-web">
-        <img class="card-img-top"
-             src="/img/projects/gasvo-web.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo-web">GasVo</a></h5>
-          <p class="card-text color-text-primary">A web app for calculating gas volume in pipes following the <a
-                  class="interactive-element" href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+    <!-- region UE Projects -->
+    <h2 class="color-prominent-primary mt-4">Unreal Engine Projects</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <!-- VR Conference -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="vr-conference">
+                <img class="card-img-top"
+                     src="/img/projects/vr-conference.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">VR Conference</h5>
+                    <p class="card-text color-text-primary">A VR conference demo in Unreal Engine to complement a
+                        presentation on a pitch to a fictitious client.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://www.youtube.com/watch?v=GdfFpR6x67E">YouTube</a>
+                    </p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Unreal Engine, Blender</small>
+                </div>
+            </div>
         </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Swift, Swift Packages, Vapor, HTML, CSS, Bootstrap, JavaScript</small>
-        </div>
-      </div>
+
     </div>
+    <!-- endregion UE Projects -->
 
-  </div>
-  <!-- endregion Server side Swift Projects -->
+    <!-- region 3D Projects -->
+    <h2 class="color-prominent-primary mt-4">3D Projects</h2>
 
-  <!-- region Python Projects -->
-  <h2 class="color-prominent-primary mt-4">Python Projects</h2>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-    <!-- Weather API -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="weather-api">
-        <img class="card-img-top"
-             src="/img/projects/weather-api.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/weather-api">Weather
-            API</a></h5>
-          <p class="card-text color-text-primary">An asynchronous Weather API that employs the <a
-                  class="interactive-element" href="https://openweathermap.org/">OpenWeather</a> API to
-            retrieve the current weather by city or coordinates.</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <!-- Purple Star -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary" id="purple-star">
+                <img class="card-img-top"
+                     src="/img/projects/purple-star.png"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">The Purple Star</h5>
+                    <p class="card-text color-text-primary">A short clip made with Blender in where my castle gets
+                        destroyed. Insurance is not going to cover this.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://www.youtube.com/watch?v=U9F8QfazoDY">YouTube</a>
+                    </p>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Blender</small>
+                </div>
+            </div>
         </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Python, FastAPI, OpenWeather API</small>
-        </div>
-      </div>
+
     </div>
-
-    <!-- Local Library -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="local-library">
-        <img class="card-img-top"
-             src="/img/projects/local-library.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/local-library">Local
-            Library</a></h5>
-          <p class="card-text color-text-primary">An asynchronous Web App and API for managing a local library of books.
-            Books that you're reading, have read and will read.</p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Python, FastAPI, Postgres, JavaScript, HTMX</small>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project AIDA -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="project-aida">
-        <img class="card-img-top"
-             src=""
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/project-aida">Project
-            AIDA</a></h5>
-          <p class="card-text color-text-primary">A web app powered by the Django framework. It's preliminary called
-            AIDA, short for <span class="text-muted">Artificial Intelligence Data Advisor</span>. Its purpose is to allow a user to store and track a history of
-            measurable metrics, in an effort to keep a history of progress and to discover patterns through observations
-            and visualizations; manually and eventually through AI-assistance.</p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Python, Django, SQL, HTML, CSS, Bootstrap, JavaScript, HTMX, Chart.js</small>
-        </div>
-      </div>
-    </div>
-
-    <!-- Pyhoot -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="pyhoot">
-        <img class="card-img-top"
-             src=""
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/Flaskeneers/Pyhoot">Pyhoot</a>
-          </h5>
-          <p class="card-text color-text-primary">A quiz web app that runs on your browser. Create your own
-            multiple-choice questions and send them to your friends and let them take it. It has a basic logic
-            authentication system and profile pages.</p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Python, Flask, NoSQL (MongoDB), HTML, CSS, Bootstrap, JavaScript</small>
-        </div>
-      </div>
-    </div>
-
-    <!-- Car Spare Parts Service -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="car-spare-parts-service">
-        <img class="card-img-top"
-             src=""
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element"
-                                       href="https://github.com/neurothrone/car-spare-parts-service">Car Spare Parts
-            Service</a>
-          </h5>
-          <p class="card-text color-text-primary">A web app for a fictional company that manages the whole spectrum for
-            a web store supplying car spare parts, from clients to manufacturers and suppliers.</p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Python, Flask, SQL (MySQL) NoSQL (MongoDB), HTML, CSS, Bootstrap,
-            JavaScript</small>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project DoT -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="project-dot">
-        <img class="card-img-top"
-             src=""
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3"><a class="interactive-element" href="https://github.com/neurothrone/project-dot">Developers
-            of Teknikhögskolan</a></h5>
-          <p class="card-text color-text-primary">A portfolio web app for the aspiring developers of Teknikhögskolan to
-            showcase their work for future employers or people seeking to collaborate on other projects.</p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Python, Flask, SQL, SQLModel, HTML, CSS, Bootstrap, JavaScript,
-            HTMX</small>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- endregion Python Projects -->
-
-  <!-- region Unity Projects -->
-  <h2 class="color-prominent-primary mt-4">Unity Projects</h2>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-    <!-- Zota the Ghost -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="zota-the-ghost">
-        <img class="card-img-top"
-             src="/img/projects/zota.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3 color-prominent-secondary">Zota the Ghost</h5>
-          <p class="card-text color-text-primary">A reverse Haunted House game for PC where you are the Ghost
-            and must make the Guests leave.
-          </p>
-
-          <p><a class="interactive-element"
-                href="https://neurothrone.itch.io/zota-the-ghost">itch.io web demo (less optimized)</a>
-          </p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">C#, Unity, Blender</small>
-        </div>
-      </div>
-    </div>
-
-    <!-- Infestation -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="infestation">
-        <img class="card-img-top"
-             src="/img/projects/infestation.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3 color-prominent-secondary">Infestation</h5>
-          <p class="card-text color-text-primary">A short and spooky shooter game for PC.
-          </p>
-          <p>
-            <a class="interactive-element"
-               href="https://neurothrone.itch.io/infestation">itch.io web demo (less optimized)</a>
-          </p>
-          <p>
-            <a class="interactive-element"
-               href="https://www.youtube.com/watch?v=42fixPY3F1I">YouTube</a>
-          </p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">C#, Unity</small>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- endregion Unity Projects -->
-
-  <!-- region UE Projects -->
-  <h2 class="color-prominent-primary mt-4">Unreal Engine Projects</h2>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-    <!-- VR Conference -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="vr-conference">
-        <img class="card-img-top"
-             src="/img/projects/vr-conference.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3 color-prominent-secondary">VR Conference</h5>
-          <p class="card-text color-text-primary">A VR conference demo in Unreal Engine to complement a
-            presentation on a pitch to a fictitious client.
-          </p>
-          <p>
-            <a class="interactive-element"
-               href="https://www.youtube.com/watch?v=GdfFpR6x67E">YouTube</a>
-          </p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Unreal Engine, Blender</small>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- endregion UE Projects -->
-
-  <!-- region 3D Projects -->
-  <h2 class="color-prominent-primary mt-4">3D Projects</h2>
-
-  <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-    <!-- Purple Star -->
-    <div class="col">
-      <div class="card h-100 custom-border bg-color-primary" id="purple-star">
-        <img class="card-img-top"
-             src="/img/projects/purple-star.png"
-             alt="">
-        <div class="card-body">
-          <h5 class="card-title h3 color-prominent-secondary">The Purple Star</h5>
-          <p class="card-text color-text-primary">A short clip made with Blender in where my castle gets
-            destroyed. Insurance is not going to cover this.
-          </p>
-          <p>
-            <a class="interactive-element"
-               href="https://www.youtube.com/watch?v=U9F8QfazoDY">YouTube</a>
-          </p>
-        </div>
-        <div class="card-footer custom-border">
-          <small class="color-text-secondary">Blender</small>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- endregion 3D Projects -->
+    <!-- endregion 3D Projects -->
 </main>
 
-#endexport
-#endextend
+        #endexport
+        #endextend
