@@ -74,7 +74,7 @@
                 <div class="card-body">
                     <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/workwork">WorkWork</a>
                     </h5>
-                    <p class="card-text color-text-primary">An app for iOS and watchOS (also works as a standalone app)
+                    <p class="card-text color-text-primary">An app for iOS and watchOS (also exists as a standalone app)
                         that helps you track and manage your tasks with a highly customizable and intuitive user
                         interface.</p>
                 </div>
