@@ -1,7 +1,7 @@
 #extend("Shared/base"):
-#export("content"):
+        #export("content"):
 
-<!-- Main Content -->
+        <!-- Main Content -->
 <main class="container my-4 fs-5">
 
     <!-- region iOS Projects -->
@@ -17,10 +17,13 @@
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">FastTrack</h5>
-                    <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed
-                        to reaching your weekly fasted state hours' goal (every hour after the 12th hour mark).
+                    <p class="card-text color-text-primary">A Fasting Timer &amp; Tracker app for iOS. It tracks the
+                        hours you are in the fasted state <span class="text-muted">(every hour after the 12th hour mark since your last meal)</span>
+                        to keep you committed to reaching your weekly goal.
                     </p>
-
+                    <p>Available on iPhone, iPad, Apple Watch as a companion app, and Mac computers with Apple Silicon
+                        as an unmodified iOS app
+                    </p>
                     <p>
                         <a class="interactive-element"
                            href="https://youtu.be/lVxYQJYy6OI">YouTube</a>
@@ -53,10 +56,11 @@
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">GasVo (iOS)</h5>
-                    <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the
+                    <p class="card-text color-text-primary">A Gas Pipe Volume Calculator app for iOS that adheres to the
                         <a class="interactive-element"
                            href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
                     </p>
+                    <p>Available on iPhone, iPad and Mac computers with Apple Silicon as an unmodified iOS app</p>
                 </div>
                 <div class="text-center">
                     <a href="https://apps.apple.com/us/app/gasvo/id6444937778?itsct=apps_box_badge&amp;itscg=30200"
@@ -83,10 +87,10 @@
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">WorkWork (iOS)</h5>
-                    <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for iOS (iPhone, iPad and
-                        Mac computers with Apple Silicon as an unmodified iOS app), with a customizable and intuitive
-                        user interface, and Cloud sync.
+                    <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for iOS with a customizable
+                        and intuitive user interface, and Cloud sync.
                     </p>
+                    <p>Available on iPhone, iPad and Mac computers with Apple Silicon as an unmodified iOS app</p>
                     <p>
                         <a class="interactive-element"
                            href="https://youtu.be/i5r_F6PFNCs">YouTube</a>
@@ -120,9 +124,9 @@
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">WorkWork (watchOS)</h5>
                     <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for Apple Watch with a
-                        customizable and intuitive user interface, and Cloud sync. Works as a standalone app or in
-                        conjunction with the iOS app.
+                        customizable and intuitive user interface, and Cloud sync.
                     </p>
+                    <p>Available on Apple Watch as a standalone app or in conjunction with the iOS app.</p>
                     <p>
                         <a class="interactive-element"
                            href="https://youtu.be/kZScetjSq9E">YouTube</a>
@@ -164,7 +168,7 @@
         <!--      </div>-->
         <!--    </div>-->
         <!-- endregion WeInventory -->
-        
+
     </div>
     <!-- endregion iOS Projects -->
 
@@ -181,7 +185,10 @@
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">neurothrone.tech</h5>
-                    <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone.</p>
+                    <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone. It hosts
+                        my portfolio and acts as a sandbox so that I can learn and experiment with REST APIs for
+                        different platforms and technologies.
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Swift, Vapor, Postgres, HTML, CSS, Bootstrap, JavaScript</small>
@@ -199,9 +206,9 @@
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">GasVo (Web)</h5>
-                    <p class="card-text color-text-primary">A web app for calculating gas volume in pipes following the
-                        <a class="interactive-element"
-                           href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
+                    <p class="card-text color-text-primary">A Gas Pipe Volume Calculator app for the Web that adheres to
+                        the <a class="interactive-element"
+                               href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
                     </p>
                     <p>
                         <a class="interactive-element"
@@ -512,5 +519,5 @@
 
 </main>
 
-#endexport
-#endextend
+        #endexport
+        #endextend
