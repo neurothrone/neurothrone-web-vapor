@@ -1,12 +1,11 @@
 #extend("Shared/base"):
-        #export("content"):
+#export("content"):
 
-        <!-- Main Content -->
+<!-- Main Content -->
 <main class="container my-4 fs-5">
 
     <!-- region iOS Projects -->
     <h2 class="color-prominent-primary">iOS Projects</h2>
-
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
 
         <!-- region FastTrack -->
@@ -53,7 +52,7 @@
                      alt="Primary Screen of GasVo app">
                 </img>
                 <div class="card-body">
-                    <h5 class="card-title h3 color-prominent-secondary">GasVo</h5>
+                    <h5 class="card-title h3 color-prominent-secondary">GasVo (iOS)</h5>
                     <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the
                         <a class="interactive-element"
                            href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
@@ -170,14 +169,15 @@
 
     <!-- region Server side Swift Projects -->
     <h2 class="color-prominent-primary mt-4">Server side Swift Projects</h2>
-
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-        <!-- neurothrone.tech -->
+
+        <!-- region neurothrone.tech -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="neurothrone-tech">
                 <img class="card-img-top"
                      src="/img/projects/neurothrone-tech.png"
-                     alt="">
+                     alt="This website's landing page">
+                </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">neurothrone.tech</h5>
                     <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone.</p>
@@ -187,19 +187,25 @@
                 </div>
             </div>
         </div>
+        <!-- endregion neurothrone.tech -->
 
-        <!-- GasVo Web -->
+        <!-- region GasVo Web -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="gasvo-web">
                 <img class="card-img-top"
                      src="/img/projects/gasvo-web.png"
-                     alt="">
+                     alt="GasVo Web interface">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element" href="/app/gasvo-web">GasVo</a></h5>
+                    <h5 class="card-title h3 color-prominent-secondary">GasVo (Web)</h5>
                     <p class="card-text color-text-primary">A web app for calculating gas volume in pipes following the
-                        <a
-                                class="interactive-element"
-                                href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
+                        <a class="interactive-element"
+                           href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="/app/gasvo-web">Web app</a>
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Swift, Swift Packages, Vapor, HTML, CSS, Bootstrap,
@@ -207,71 +213,85 @@
                 </div>
             </div>
         </div>
+        <!-- endregion GasVo Web -->
 
     </div>
     <!-- endregion Server side Swift Projects -->
 
     <!-- region Python Projects -->
     <h2 class="color-prominent-primary mt-4">Python Projects</h2>
-
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-        <!-- Weather API -->
+
+        <!-- region Weather API -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="weather-api">
                 <img class="card-img-top"
                      src="/img/projects/weather-api.png"
-                     alt="">
+                     alt="The Web interface of Weather API">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element"
-                                                 href="https://github.com/neurothrone/weather-api">Weather
-                        API</a></h5>
+                    <h5 class="card-title h3 color-prominent-secondary">Weather API</h5>
                     <p class="card-text color-text-primary">An asynchronous Weather API that employs the <a
                             class="interactive-element" href="https://openweathermap.org/">OpenWeather</a> API to
-                        retrieve the current weather by city or coordinates.</p>
+                        retrieve the current weather by city or coordinates.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://github.com/neurothrone/weather-api">GitHub
+                        </a>
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Python, FastAPI, OpenWeather API</small>
                 </div>
             </div>
         </div>
+        <!-- endregion Weather API -->
 
-        <!-- Local Library -->
+        <!-- region Local Library -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="local-library">
                 <img class="card-img-top"
                      src="/img/projects/local-library.png"
-                     alt="">
+                     alt="Web interface of Local Library">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element"
-                                                 href="https://github.com/neurothrone/local-library">Local
-                        Library</a></h5>
+                    <h5 class="card-title h3 color-prominent-secondary">Local Library</h5>
                     <p class="card-text color-text-primary">An asynchronous Web App and API for managing a local library
-                        of books.
-                        Books that you're reading, have read and will read.</p>
+                        of books. Books that you're reading, have read and will read.</p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://github.com/neurothrone/local-library">GitHub
+                        </a>
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Python, FastAPI, Postgres, JavaScript, HTMX</small>
                 </div>
             </div>
         </div>
+        <!-- endregion Local Library -->
 
-        <!-- Project AIDA -->
+        <!-- region Project AIDA -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="project-aida">
-                <img class="card-img-top"
-                     src=""
-                     alt="">
+                <!--                <img class="card-img-top"-->
+                <!--                     src=""-->
+                <!--                     alt="">-->
+                <!--                </img>-->
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element"
-                                                 href="https://github.com/neurothrone/project-aida">Project
-                        AIDA</a></h5>
+                    <h5 class="card-title h3 color-prominent-secondary">Project AIDA</h5>
                     <p class="card-text color-text-primary">A web app powered by the Django framework. It's preliminary
-                        called
-                        AIDA, short for <span class="text-muted">Artificial Intelligence Data Advisor</span>. Its
+                        called AIDA, short for <span class="text-muted">Artificial Intelligence Data Advisor</span>. Its
                         purpose is to allow a user to store and track a history of
                         measurable metrics, in an effort to keep a history of progress and to discover patterns through
-                        observations
-                        and visualizations; manually and eventually through AI-assistance.</p>
+                        observations and visualizations; manually and eventually through AI-assistance.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://github.com/neurothrone/project-aida">GitHub
+                        </a>
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Python, Django, SQL, HTML, CSS, Bootstrap, JavaScript, HTMX,
@@ -279,21 +299,26 @@
                 </div>
             </div>
         </div>
+        <!-- endregion Project AIDA -->
 
-        <!-- Pyhoot -->
+        <!-- region Pyhoot -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="pyhoot">
                 <img class="card-img-top"
-                     src=""
-                     alt="">
+                     src="/img/projects/pyhoot-uml.png"
+                     alt="UML diagram of Pyhoot's data models">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element"
-                                                 href="https://github.com/Flaskeneers/Pyhoot">Pyhoot</a>
-                    </h5>
+                    <h5 class="card-title h3 color-prominent-secondary">Pyhoot</h5>
                     <p class="card-text color-text-primary">A quiz web app that runs on your browser. Create your own
                         multiple-choice questions and send them to your friends and let them take it. It has a basic
-                        logic
-                        authentication system and profile pages.</p>
+                        logic authentication system and profile pages.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://github.com/Flaskeneers/Pyhoot">GitHub
+                        </a>
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Python, Flask, NoSQL (MongoDB), HTML, CSS, Bootstrap,
@@ -301,22 +326,25 @@
                 </div>
             </div>
         </div>
+        <!-- endregion Pyhoot -->
 
-        <!-- Car Spare Parts Service -->
+        <!-- region Car Spare Parts Service -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="car-spare-parts-service">
                 <img class="card-img-top"
-                     src=""
-                     alt="">
+                     src="/img/projects/car-spare-parts-db.png"
+                     alt="Database design of Car Spare Parts Service">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element"
-                                                 href="https://github.com/neurothrone/car-spare-parts-service">Car Spare
-                        Parts
-                        Service</a>
-                    </h5>
+                    <h5 class="card-title h3 color-prominent-secondary">Car Spare Parts Service</h5>
                     <p class="card-text color-text-primary">A web app for a fictional company that manages the whole
-                        spectrum for
-                        a web store supplying car spare parts, from clients to manufacturers and suppliers.</p>
+                        spectrum for a web store supplying car spare parts, from clients to manufacturers and suppliers.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://github.com/neurothrone/car-spare-parts-service">GitHub
+                        </a>
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Python, Flask, SQL (MySQL) NoSQL (MongoDB), HTML, CSS,
@@ -325,49 +353,59 @@
                 </div>
             </div>
         </div>
+        <!-- endregion Car Spare Parts Service -->
 
-        <!-- Project DoT -->
+        <!-- region Project DoT -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="project-dot">
                 <img class="card-img-top"
                      src=""
                      alt="">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element"
-                                                 href="https://github.com/neurothrone/project-dot">Developers
-                        of Teknikhögskolan</a></h5>
+                    <h5 class="card-title h3 color-prominent-secondary">Project DoT</h5>
                     <p class="card-text color-text-primary">A portfolio web app for the aspiring developers of
-                        Teknikhögskolan to
-                        showcase their work for future employers or people seeking to collaborate on other projects.</p>
+                        Teknikhögskolan to showcase their work for future employers or people seeking to collaborate on
+                        other projects.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://github.com/neurothrone/project-dot">GitHub
+                        </a>
+                    </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Python, Flask, SQL, SQLModel, HTML, CSS, Bootstrap, JavaScript,
-                        HTMX</small>
+                        HTMX
+                    </small>
                 </div>
             </div>
         </div>
+        <!-- endregion Project DoT -->
 
     </div>
     <!-- endregion Python Projects -->
 
     <!-- region Unity Projects -->
     <h2 class="color-prominent-primary mt-4">Unity Projects</h2>
-
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-        <!-- Zota the Ghost -->
+
+        <!-- region Zota the Ghost -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="zota-the-ghost">
                 <img class="card-img-top"
                      src="/img/projects/zota.png"
-                     alt="">
+                     alt="Main Menu background">
+                </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">Zota the Ghost</h5>
                     <p class="card-text color-text-primary">A reverse Haunted House game for PC where you are the Ghost
                         and must make the Guests leave.
                     </p>
-
-                    <p><a class="interactive-element"
-                          href="https://neurothrone.itch.io/zota-the-ghost">itch.io web demo (less optimized)</a>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://neurothrone.itch.io/zota-the-ghost">itch.io web demo (less optimized)
+                        </a>
                     </p>
                 </div>
                 <div class="card-footer custom-border">
@@ -375,13 +413,15 @@
                 </div>
             </div>
         </div>
+        <!-- endregion Zota the Ghost -->
 
-        <!-- Infestation -->
+        <!-- region Infestation -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="infestation">
                 <img class="card-img-top"
                      src="/img/projects/infestation.png"
-                     alt="">
+                     alt="First level">
+                </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">Infestation</h5>
                     <p class="card-text color-text-primary">A short and spooky shooter game for PC.
@@ -400,19 +440,22 @@
                 </div>
             </div>
         </div>
+        <!-- endregion Infestation -->
+
     </div>
     <!-- endregion Unity Projects -->
 
     <!-- region UE Projects -->
     <h2 class="color-prominent-primary mt-4">Unreal Engine Projects</h2>
-
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-        <!-- VR Conference -->
+
+        <!-- region VR Conference -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="vr-conference">
                 <img class="card-img-top"
                      src="/img/projects/vr-conference.png"
-                     alt="">
+                     alt="The Conference in Virtual Reality">
+                </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">VR Conference</h5>
                     <p class="card-text color-text-primary">A VR conference demo in Unreal Engine to complement a
@@ -420,7 +463,8 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://www.youtube.com/watch?v=GdfFpR6x67E">YouTube</a>
+                           href="https://www.youtube.com/watch?v=GdfFpR6x67E">YouTube
+                        </a>
                     </p>
                 </div>
                 <div class="card-footer custom-border">
@@ -428,20 +472,22 @@
                 </div>
             </div>
         </div>
+        <!-- endregion VR Conference -->
 
     </div>
     <!-- endregion UE Projects -->
 
     <!-- region 3D Projects -->
     <h2 class="color-prominent-primary mt-4">3D Projects</h2>
-
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-        <!-- Purple Star -->
+
+        <!-- region Purple Star -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="purple-star">
                 <img class="card-img-top"
                      src="/img/projects/purple-star.png"
-                     alt="">
+                     alt="The 3D scene">
+                </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">The Purple Star</h5>
                     <p class="card-text color-text-primary">A short clip made with Blender in where my castle gets
@@ -449,7 +495,8 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://www.youtube.com/watch?v=U9F8QfazoDY">YouTube</a>
+                           href="https://www.youtube.com/watch?v=U9F8QfazoDY">YouTube
+                        </a>
                     </p>
                 </div>
                 <div class="card-footer custom-border">
@@ -457,10 +504,12 @@
                 </div>
             </div>
         </div>
+        <!-- endregion Purple Star -->
 
     </div>
     <!-- endregion 3D Projects -->
+
 </main>
 
-        #endexport
-        #endextend
+#endexport
+#endextend
