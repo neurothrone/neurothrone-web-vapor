@@ -1,39 +1,39 @@
 <footer class="container mt-auto color-text-secondary">
-  <div class="row">
-    <div class="col">
-      <p class="text-start">Neurothrone &copy; #date(now, "y")</p>
+    <div class="row">
+        <div class="col">
+            <p class="text-start">Neurothrone &copy; #date(now, "y")</p>
+        </div>
+
+        <div class="col text-end">
+            <p><a class="interactive-element"
+                  href="#">Back to top</a>
+            </p>
+        </div>
     </div>
-    
-    <div class="col text-end">
-      <p><a class=" interactive-element"
-        href="#">Back to top</a>
-      </p>
-    </div>
-  </div>
-  
-  <ul class="list-inline text-start">
-    <li class="list-inline-item">
-      <a class="text-decoration-none"
-        href="https://github.com/neurothrone">
-        <i class="fa-brands fa-github-square fs-3 interactive-element"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="text-decoration-none"
-        href="https://www.linkedin.com/in/neurothrone">
-        <i class="fa-brands fa-linkedin fs-3 interactive-element"></i>
-      </a>
-    </li>
-  </ul>
-  
-  <hr>
-  
-  <p class="text-center">This <a class="interactive-element" href="/portfolio/#neurothrone-tech">site</a> is powered by <a
-    class="interactive-element"
-    href="https://swift.org"
-    target="_blank">Swift</a> & <a
-      class="interactive-element"
-      href="https://vapor.codes"
-      target="_blank">Vapor</a>
+
+    <ul class="list-inline text-start">
+        <li class="list-inline-item">
+            <a class="text-decoration-none interactive-element"
+               href="https://github.com/neurothrone">
+                <i class="fa-brands fa-github-square fs-3"></i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="text-decoration-none interactive-element"
+               href="https://www.linkedin.com/in/neurothrone">
+                <i class="fa-brands fa-linkedin fs-3"></i>
+            </a>
+        </li>
+    </ul>
+
+    <hr>
+
+    <p class="text-center">This <a class="interactive-element" href="/portfolio/#neurothrone-tech">site</a> is powered
+        by <a class="interactive-element"
+              href="https://swift.org"
+              target="_blank">Swift</a> & <a class="interactive-element"
+                                             href="https://vapor.codes"
+                                             target="_blank">Vapor
+        </a>
     </p>
 </footer>
