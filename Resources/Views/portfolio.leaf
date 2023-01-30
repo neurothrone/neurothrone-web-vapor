@@ -26,7 +26,9 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://youtu.be/lVxYQJYy6OI">YouTube</a>
+                           href="https://youtu.be/lVxYQJYy6OI">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                        </a>
                     </p>
                 </div>
 
@@ -93,7 +95,9 @@
                     <p>Available on iPhone, iPad and Mac computers with Apple Silicon as an unmodified iOS app</p>
                     <p>
                         <a class="interactive-element"
-                           href="https://youtu.be/i5r_F6PFNCs">YouTube</a>
+                           href="https://youtu.be/i5r_F6PFNCs">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                        </a>
                     </p>
                 </div>
 
@@ -129,7 +133,9 @@
                     <p>Available on Apple Watch as a standalone app or in conjunction with the iOS app.</p>
                     <p>
                         <a class="interactive-element"
-                           href="https://youtu.be/kZScetjSq9E">YouTube</a>
+                           href="https://youtu.be/kZScetjSq9E">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                        </a>
                     </p>
                 </div>
 
@@ -469,7 +475,8 @@
 
                     <p>
                         <a class="interactive-element"
-                           href="https://neurothrone.itch.io/zota-the-ghost">itch.io web demo (less optimized)
+                           href="https://neurothrone.itch.io/zota-the-ghost">
+                            <i class="fa-brands fa-itch-io fa-2xl"></i>
                         </a>
                     </p>
                 </div>
@@ -493,11 +500,13 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://neurothrone.itch.io/infestation">itch.io web demo (less optimized)</a>
-                    </p>
-                    <p>
+                           href="https://neurothrone.itch.io/infestation">
+                            <i class="fa-brands fa-itch-io fa-2xl"></i>
+                        </a>
                         <a class="interactive-element"
-                           href="https://www.youtube.com/watch?v=42fixPY3F1I">YouTube</a>
+                           href="https://www.youtube.com/watch?v=42fixPY3F1I">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                        </a>
                     </p>
                 </div>
                 <div class="card-footer custom-border">
@@ -552,7 +561,8 @@
 
                     <p>
                         <a class="interactive-element"
-                           href="https://www.youtube.com/watch?v=GdfFpR6x67E">YouTube
+                           href="https://www.youtube.com/watch?v=GdfFpR6x67E">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
                         </a>
                     </p>
                 </div>
@@ -584,7 +594,8 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://www.youtube.com/watch?v=U9F8QfazoDY">YouTube
+                           href="https://www.youtube.com/watch?v=U9F8QfazoDY">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
                         </a>
                     </p>
                 </div>
