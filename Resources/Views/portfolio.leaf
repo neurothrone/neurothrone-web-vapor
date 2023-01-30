@@ -8,25 +8,33 @@
     <h2 class="color-prominent-primary">iOS Projects</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
-        <!-- FastTrack -->
+
+        <!-- region FastTrack -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
                 <img class="card-img-top"
                      src="/img/projects/fast-track.jpg"
-                     alt="...">
+                     alt="Primary Screen of FastTrack app">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/fast-track">FastTrack</a>
-                    </h5>
+                    <h5 class="card-title h3 color-prominent-secondary">FastTrack</h5>
                     <p class="card-text color-text-primary">An iOS app for tracking your fasting to keep you committed
-                        to reaching
-                        your weekly fasted state hours' goal (every hour after the 12th hour mark).</p>
+                        to reaching your weekly fasted state hours' goal (every hour after the 12th hour mark).
+                    </p>
+
+                    <p>
+                        <a class="interactive-element"
+                           href="https://youtu.be/lVxYQJYy6OI">YouTube</a>
+                    </p>
                 </div>
 
                 <div class="text-center">
                     <a href="https://apps.apple.com/us/app/fasttrack-fast-timer-tracker/id1659998801?itsct=apps_box_badge&amp;itscg=30200"
-                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
-                            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671580800?h=d19c2e04b3683f9cdfac455ce928925e"
-                            alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
+                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671580800?h=d19c2e04b3683f9cdfac455ce928925e"
+                             alt="Download on the App Store"
+                             style="border-radius: 13px; width: 250px; height: 83px;">
+                        </img>
                     </a>
                 </div>
 
@@ -35,55 +43,109 @@
                 </div>
             </div>
         </div>
+        <!-- endregion FastTrack -->
 
-        <!-- GasVo -->
+        <!-- region GasVo -->
         <div class="col">
             <div class="card h-100 bg-color-primary custom-border">
                 <img class="card-img-top"
                      src="/img/projects/gas-volume-calculator.jpeg"
-                     alt="...">
+                     alt="Primary Screen of GasVo app">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/gasvo">GasVo</a></h5>
+                    <h5 class="card-title h3 color-prominent-secondary">GasVo</h5>
                     <p class="card-text color-text-primary">An iOS app for calculating gas volume in pipes following the
-                        <a
-                                class="interactive-element"
-                                href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.</p>
-
+                        <a class="interactive-element"
+                           href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
+                    </p>
                 </div>
-
                 <div class="text-center">
                     <a href="https://apps.apple.com/us/app/gasvo/id6444937778?itsct=apps_box_badge&amp;itscg=30200"
-                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
-                            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671667200?h=455ddfd81afb3d9b3087eea61d4a0b91"
-                            alt="Download on the App Store"
-                            style="border-radius: 13px; width: 250px; height: 83px;"></a>
+                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1671667200?h=455ddfd81afb3d9b3087eea61d4a0b91"
+                             alt="Download on the App Store"
+                             style="border-radius: 13px; width: 250px; height: 83px;">
+                        </img>
+                    </a>
                 </div>
-
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
                 </div>
             </div>
         </div>
+        <!-- endregion GasVo -->
 
-        <!-- WorkWork -->
+        <!-- region WorkWork iOS -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
                 <img class="card-img-top"
-                     src="/img/projects/workwork.jpeg"
-                     alt="...">
+                     src="/img/projects/workwork-ios.jpeg"
+                     alt="Primary Screen of WorkWork iOS app">
+                </img>
                 <div class="card-body">
-                    <h5 class="card-title h3"><a class="interactive-element" href="/portfolio/workwork">WorkWork</a>
-                    </h5>
-                    <p class="card-text color-text-primary">An app for iOS and watchOS (also exists as a standalone app)
-                        that helps you track and manage your tasks with a highly customizable and intuitive user
-                        interface.</p>
+                    <h5 class="card-title h3 color-prominent-secondary">WorkWork (iOS)</h5>
+                    <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for iOS (iPhone, iPad and
+                        Mac computers with Apple Silicon as an unmodified iOS app), with a customizable and intuitive
+                        user interface, and Cloud sync.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://youtu.be/i5r_F6PFNCs">YouTube</a>
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://apps.apple.com/us/app/workwork-todo-list-tasks/id1668462162?itsct=apps_box_badge&amp;itscg=30200"
+                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1674864000"
+                             alt="Download on the App Store"
+                             style="border-radius: 13px; width: 250px; height: 83px;">
+                        </img>
+                    </a>
                 </div>
 
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>
+                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, Swift Packages</small>
                 </div>
             </div>
         </div>
+        <!-- endregion WorkWork iOS -->
+
+        <!-- region WorkWork watchOS -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top"
+                     src="/img/projects/workwork-watchos.png"
+                     alt="Primary Screen of WorkWork watchOS app">
+                </img>
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">WorkWork (watchOS)</h5>
+                    <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for Apple Watch with a
+                        customizable and intuitive user interface, and Cloud sync. Works as a standalone app or in
+                        conjunction with the iOS app.
+                    </p>
+                    <p>
+                        <a class="interactive-element"
+                           href="https://youtu.be/kZScetjSq9E">YouTube</a>
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://apps.apple.com/us/app/workwork-watch/id1668598115?itsct=apps_box_badge&amp;itscg=30200"
+                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1674950400"
+                             alt="Download on the App Store"
+                             style="border-radius: 13px; width: 250px; height: 83px;">
+                        </img>
+                    </a>
+                </div>
+
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, Swift Packages</small>
+                </div>
+            </div>
+        </div>
+        <!-- endregion WorkWork watchOS -->
 
         <!-- WeInventory -->
         <!--    <div class="col">-->
