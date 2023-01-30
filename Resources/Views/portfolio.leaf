@@ -245,7 +245,8 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://github.com/neurothrone/weather-api">GitHub
+                           href="https://github.com/neurothrone/weather-api">
+                            <i class="fa-brands fa-github-square fs-1"></i>
                         </a>
                     </p>
                 </div>
@@ -266,10 +267,12 @@
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">Local Library</h5>
                     <p class="card-text color-text-primary">An asynchronous Web App and API for managing a local library
-                        of books. Books that you're reading, have read and will read.</p>
+                        of books. Books that you're reading, have read and will read.
+                    </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://github.com/neurothrone/local-library">GitHub
+                           href="https://github.com/neurothrone/local-library">
+                            <i class="fa-brands fa-github-square fs-1"></i>
                         </a>
                     </p>
                 </div>
@@ -297,7 +300,8 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://github.com/neurothrone/project-aida">GitHub
+                           href="https://github.com/neurothrone/project-aida">
+                            <i class="fa-brands fa-github-square fs-1"></i>
                         </a>
                     </p>
                 </div>
@@ -318,13 +322,29 @@
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">Pyhoot</h5>
-                    <p class="card-text color-text-primary">A quiz web app that runs on your browser. Create your own
+                    <p class="card-text color-text-primary">A Quiz Web app that runs on your browser. Create your own
                         multiple-choice questions and send them to your friends and let them take it. It has a basic
                         logic authentication system and profile pages.
                     </p>
+
+                    <p>Partners:</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="interactive-element"
+                               href="https://github.com/Fredstrom">Fredstrom
+                            </a>
+                        </li>
+                        <li>
+                            <a class="interactive-element"
+                               href="https://github.com/Pagolicious">Pagolicious
+                            </a>
+                        </li>
+                    </ul>
+
                     <p>
                         <a class="interactive-element"
-                           href="https://github.com/Flaskeneers/Pyhoot">GitHub
+                           href="https://github.com/Flaskeneers/Pyhoot">
+                            <i class="fa-brands fa-github-square fs-1"></i>
                         </a>
                     </p>
                 </div>
@@ -348,16 +368,31 @@
                     <p class="card-text color-text-primary">A web app for a fictional company that manages the whole
                         spectrum for a web store supplying car spare parts, from clients to manufacturers and suppliers.
                     </p>
+
+                    <p>Partners:</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="interactive-element"
+                               href="https://se.linkedin.com/in/mahboubeh-azizzadeh-5a141152">Mahboubeh Azizzadeh
+                            </a>
+                        </li>
+                        <li>
+                            <a class="interactive-element"
+                               href="https://github.com/RamicAmir">RamicAmir
+                            </a>
+                        </li>
+                    </ul>
+
                     <p>
                         <a class="interactive-element"
-                           href="https://github.com/neurothrone/car-spare-parts-service">GitHub
+                           href="https://github.com/neurothrone/car-spare-parts-service">
+                            <i class="fa-brands fa-github-square fs-1"></i>
                         </a>
                     </p>
                 </div>
                 <div class="card-footer custom-border">
                     <small class="color-text-secondary">Python, Flask, SQL (MySQL) NoSQL (MongoDB), HTML, CSS,
-                        Bootstrap,
-                        JavaScript</small>
+                        Bootstrap, JavaScript</small>
                 </div>
             </div>
         </div>
@@ -378,7 +413,8 @@
                     </p>
                     <p>
                         <a class="interactive-element"
-                           href="https://github.com/neurothrone/project-dot">GitHub
+                           href="https://github.com/neurothrone/project-dot">
+                            <i class="fa-brands fa-github-square fs-1"></i>
                         </a>
                     </p>
                 </div>
@@ -410,6 +446,27 @@
                     <p class="card-text color-text-primary">A reverse Haunted House game for PC where you are the Ghost
                         and must make the Guests leave.
                     </p>
+
+                    <p>Partners:</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="interactive-element"
+                               href="https://se.linkedin.com/in/oskar-skoglund-b4016210b">Oskar Skoglund
+                            </a>
+                        </li>
+                        <li>
+                            <a class="interactive-element"
+                               href="https://se.linkedin.com/in/tildesvenhard">Tilde Svenhard
+                            </a>
+
+                        </li>
+                        <li>
+                            <a class="interactive-element"
+                               href="https://se.linkedin.com/in/agnescharlottaaronsson">Agnes Aronsson
+                            </a>
+                        </li>
+                    </ul>
+
                     <p>
                         <a class="interactive-element"
                            href="https://neurothrone.itch.io/zota-the-ghost">itch.io web demo (less optimized)
@@ -469,6 +526,30 @@
                     <p class="card-text color-text-primary">A VR conference demo in Unreal Engine to complement a
                         presentation on a pitch to a fictitious client.
                     </p>
+
+                    <p>Partners:</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="interactive-element"
+                               href="https://www.linkedin.com/in/fredrik-persson-konsult">Fredrik Persson
+                            </a>
+                        </li>
+                        <li>
+                            <a class="interactive-element"
+                               href="https://se.linkedin.com/in/ljungberglouise">Louise Ljungberg
+                            </a>
+
+                        </li>
+                        <li>
+                            Hamid Shir Ahmad
+                        </li>
+                        <li>
+                            <a class="interactive-element"
+                               href="https://se.linkedin.com/in/tanja-leonova-470664a9">Tanja Leonova
+                            </a>
+                        </li>
+                    </ul>
+
                     <p>
                         <a class="interactive-element"
                            href="https://www.youtube.com/watch?v=GdfFpR6x67E">YouTube
