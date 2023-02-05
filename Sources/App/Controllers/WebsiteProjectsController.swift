@@ -16,6 +16,8 @@ struct WebsiteProjectsController: RouteCollection {
     mainRoutes.get("fast-track", use: fastTrackPage)
     mainRoutes.get("we-inventory", use: weInventoryPage)
     mainRoutes.get("workwork", use: workWorkPage)
+    
+    mainRoutes.get("gasvo-android", use: gasvoAndroidPage)
   }
   
   private func fastTrackPage(_ req: Request) async throws -> View {
@@ -36,6 +38,13 @@ struct WebsiteProjectsController: RouteCollection {
   private func workWorkPage(_ req: Request) async throws -> View {
     let context = WorkWorkContext()
     return try await req.view.render("Portfolio/workwork", context)
+  }
+  
+  //MARK: - Android
+  
+  private func gasvoAndroidPage(_ req: Request) async throws -> View {
+    let context = Gasvo.GasVoContext()
+    return try await req.view.render("Portfolio/gasvo-android", context)
   }
 }
 
@@ -63,4 +72,14 @@ struct WorkWorkContext: Encodable {
   let title = "WorkWork"
   let now = Date()
   let activePage: ActivePage.Project = .workWork
+}
+
+
+//MARK: - Android Apps
+extension Gasvo {
+  struct GasVoAndroidContext: Encodable {
+    let title = "GasVo"
+    let now = Date()
+    let activePage: ActivePage.Project = .gasvoAndroid
+  }
 }

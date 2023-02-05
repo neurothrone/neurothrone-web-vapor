@@ -17,6 +17,7 @@ enum ActivePage: String, Encodable {
   
   enum Project: String, Encodable {
     case gasvo,
+         gasvoAndroid,
          fastTrack,
          weInventory,
          workWork
