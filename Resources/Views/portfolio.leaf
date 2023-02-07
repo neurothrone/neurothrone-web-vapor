@@ -22,12 +22,12 @@
                         to keep you committed to reaching your weekly goal.
                     </p>
                     <p>Available on iPhone, iPad, Apple Watch as a companion app, and Mac computers with Apple Silicon
-                        as an unmodified iOS app
+                        as an unmodified iOS app.
                     </p>
                     <p>
                         <a class="interactive-element"
                            href="https://youtu.be/lVxYQJYy6OI">
-                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                            <i class="fa-brands fa-square-youtube fa-2xl"></i>
                         </a>
                     </p>
                 </div>
@@ -43,7 +43,8 @@
                 </div>
 
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, App Intents</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Swift, SwiftUI, Core Data, CloudKit,
+                        Timers, App Intents</small>
                 </div>
             </div>
         </div>
@@ -62,7 +63,7 @@
                         <a class="interactive-element"
                            href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
                     </p>
-                    <p>Available on iPhone, iPad and Mac computers with Apple Silicon as an unmodified iOS app</p>
+                    <p>Available on iPhone, iPad and Mac computers with Apple Silicon as an unmodified iOS app.</p>
                 </div>
                 <div class="text-center">
                     <a href="https://apps.apple.com/us/app/gasvo/id6444937778?itsct=apps_box_badge&amp;itscg=30200"
@@ -74,7 +75,8 @@
                     </a>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, Swift Packages</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Swift, SwiftUI, Core Data, Custom Swift
+                        Package</small>
                 </div>
             </div>
         </div>
@@ -92,11 +94,11 @@
                     <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for iOS with a customizable
                         and intuitive user interface, and Cloud sync.
                     </p>
-                    <p>Available on iPhone, iPad and Mac computers with Apple Silicon as an unmodified iOS app</p>
+                    <p>Available on iPhone, iPad and Mac computers with Apple Silicon as an unmodified iOS app.</p>
                     <p>
                         <a class="interactive-element"
                            href="https://youtu.be/i5r_F6PFNCs">
-                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                            <i class="fa-brands fa-square-youtube fa-2xl"></i>
                         </a>
                     </p>
                 </div>
@@ -112,7 +114,8 @@
                 </div>
 
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, Swift Packages</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Swift, SwiftUI, Core Data, CloudKit,
+                        Custom Swift Package</small>
                 </div>
             </div>
         </div>
@@ -134,7 +137,7 @@
                     <p>
                         <a class="interactive-element"
                            href="https://youtu.be/kZScetjSq9E">
-                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                            <i class="fa-brands fa-square-youtube fa-2xl"></i>
                         </a>
                     </p>
                 </div>
@@ -150,7 +153,8 @@
                 </div>
 
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit, Swift Packages</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Swift, SwiftUI, Core Data, CloudKit,
+                        Custom Swift Package</small>
                 </div>
             </div>
         </div>
@@ -197,7 +201,8 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Swift, Vapor, Postgres, HTML, CSS, Bootstrap, JavaScript</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Swift, Vapor, Postgres, HTML, CSS,
+                        Bootstrap, JavaScript</small>
                 </div>
             </div>
         </div>
@@ -222,7 +227,8 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Swift, Swift Packages, Vapor, HTML, CSS, Bootstrap,
+                    <small class="color-text-secondary"><strong>Tech</strong>: Swift, Custom Swift Package, Vapor, HTML,
+                        CSS, Bootstrap,
                         JavaScript</small>
                 </div>
             </div>
@@ -257,7 +263,7 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Python, FastAPI, OpenWeather API</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Python, FastAPI, OpenWeather API</small>
                 </div>
             </div>
         </div>
@@ -283,7 +289,8 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Python, FastAPI, Postgres, JavaScript, HTMX</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Python, FastAPI, Postgres, JavaScript,
+                        HTMX</small>
                 </div>
             </div>
         </div>
@@ -312,7 +319,8 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Python, Django, SQL, HTML, CSS, Bootstrap, JavaScript, HTMX,
+                    <small class="color-text-secondary"><strong>Tech</strong>: Python, Django, SQL, HTML, CSS,
+                        Bootstrap, JavaScript, HTMX,
                         Chart.js</small>
                 </div>
             </div>
@@ -355,7 +363,8 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Python, Flask, NoSQL (MongoDB), HTML, CSS, Bootstrap,
+                    <small class="color-text-secondary"><strong>Tech</strong>: Python, Flask, NoSQL (MongoDB), HTML,
+                        CSS, Bootstrap,
                         JavaScript</small>
                 </div>
             </div>
@@ -397,7 +406,8 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Python, Flask, SQL (MySQL) NoSQL (MongoDB), HTML, CSS,
+                    <small class="color-text-secondary"><strong>Tech</strong>: Python, Flask, SQL (MySQL) NoSQL
+                        (MongoDB), HTML, CSS,
                         Bootstrap, JavaScript</small>
                 </div>
             </div>
@@ -425,7 +435,8 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Python, Flask, SQL, SQLModel, HTML, CSS, Bootstrap, JavaScript,
+                    <small class="color-text-secondary"><strong>Tech</strong>: Python, Flask, SQL, SQLModel, HTML, CSS,
+                        Bootstrap, JavaScript,
                         HTMX
                     </small>
                 </div>
@@ -481,7 +492,7 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">C#, Unity, Blender</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: C#, Unity, Blender</small>
                 </div>
             </div>
         </div>
@@ -510,7 +521,7 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">C#, Unity</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: C#, Unity</small>
                 </div>
             </div>
         </div>
@@ -567,7 +578,7 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Unreal Engine, Blender</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Unreal Engine, Blender</small>
                 </div>
             </div>
         </div>
@@ -600,7 +611,7 @@
                     </p>
                 </div>
                 <div class="card-footer custom-border">
-                    <small class="color-text-secondary">Blender</small>
+                    <small class="color-text-secondary"><strong>Tech</strong>: Blender</small>
                 </div>
             </div>
         </div>
