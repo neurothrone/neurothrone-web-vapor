@@ -2,6 +2,9 @@
         #export("content"):
 
 <main class="container my-4 fs-5">
+
+    <!-- region Skills -->
+
     <section class="mb-5">
 
         <!-- Proficient -->
@@ -24,7 +27,9 @@
             <li>Jetpack Compose, Android View System</li>
             <li>Databases (Room, Firebase)</li>
             <li>DataStore, Dependency injection with Dagger Hilt, Material3 Design System</li>
-            <li>Google Play Console, Jetpack libraries, Fragments, ViewModel, ViewBinding, DataBinding, LiveData, Coroutines</li>
+            <li>Google Play Console, Jetpack libraries, Fragments, ViewModel, ViewBinding, DataBinding, LiveData,
+                Coroutines
+            </li>
             <li>Tools: Android Studio, IntelliJ IDEA</li>
         </ul>
         <hr>
@@ -107,9 +112,21 @@
         <hr>
     </section>
 
+    <!-- endregion Skills -->
+
+    <!-- region Work Experience -->
+
     <!-- Work Experience -->
     <section class="mb-5">
         <h2 class="color-prominent-primary">Work Experience</h2>
+        <hr/>
+        <p>
+            <span class="color-prominent-secondary">2023 Jan - Feb &rarr; </span>
+            <a class="interactive-element"
+               href="https://play.google.com/store/apps/details?id=tech.neurothrone.gasvo">GasVo (Android)</a>.
+            A Gas Pipe Volume Calculator app for
+            working professionals. Multiplatform (iOS, Android, Web).
+        </p>
         <hr>
         <p>
             <span class="color-prominent-secondary">2023 Jan &rarr; </span>
@@ -156,6 +173,10 @@
             accounting, ATG and Svenskaspel sales and logistics. Tages Games &amp; Tobacco @ Stockholm, Sweden</p>
         <hr>
     </section>
+
+    <!-- endregion Work Experience -->
+
+    <!-- region Education -->
 
     <!-- Education -->
     <section class="mb-5">
@@ -208,7 +229,8 @@
       </span>
         </p>
         <hr>
-        <p><span class="color-prominent-secondary">2016 Jan - Jun &rarr; </span>Stand-alone course package in Social Anthropology.
+        <p><span class="color-prominent-secondary">2016 Jan - Jun &rarr; </span>Stand-alone course package in Social
+            Anthropology.
             <span class="color-text-secondary">
               <a class="interactive-element"
                  href="https://www.su.se/english/">
@@ -217,6 +239,9 @@
         </p>
         <hr>
     </section>
+
+    <!-- endregion Education -->
+
 </main>
 
         #endexport
