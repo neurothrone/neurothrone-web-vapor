@@ -14,7 +14,7 @@
             <li>AR (ARKit, RealityKit, Reality Composer, Reality Converter)</li>
             <li>Web apps &amp; APIs with Server side Swift (Vapor)</li>
             <li>Swift Package Manager, Custom Swift Packages</li>
-            <li>App Intents, SiriKit, MapKit, Core Location, UIKit, App Store Connect, URLSession</li>
+            <li>App Store Connect, App Intents, SiriKit, MapKit, Core Location, UIKit, URLSession</li>
             <li>Tools: Xcode, AppCode</li>
         </ul>
         <hr>
@@ -24,7 +24,7 @@
             <li>Jetpack Compose, Android View System</li>
             <li>Databases (Room, Firebase)</li>
             <li>DataStore, Dependency injection with Dagger Hilt, Material3 Design System</li>
-            <li>Jetpack libraries, Fragments, ViewModel, ViewBinding, DataBinding, LiveData, Coroutines</li>
+            <li>Google Play Console, Jetpack libraries, Fragments, ViewModel, ViewBinding, DataBinding, LiveData, Coroutines</li>
             <li>Tools: Android Studio, IntelliJ IDEA</li>
         </ul>
         <hr>
