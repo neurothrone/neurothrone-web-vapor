@@ -50,11 +50,12 @@
         </div>
         <!-- endregion FastTrack -->
 
-        <!-- region GasVo -->
+        <!-- region GasVo (iOS) -->
+
         <div class="col">
             <div class="card h-100 bg-color-primary custom-border">
                 <img class="card-img-top"
-                     src="/img/projects/gas-volume-calculator.jpeg"
+                     src="/img/projects/gasvo-ios.jpeg"
                      alt="Primary Screen of GasVo app">
                 </img>
                 <div class="card-body">
@@ -80,6 +81,7 @@
                 </div>
             </div>
         </div>
+
         <!-- endregion GasVo -->
 
         <!-- region WorkWork iOS -->
@@ -181,6 +183,47 @@
 
     </div>
     <!-- endregion iOS Projects -->
+
+    <!-- region Android Projects -->
+
+    <!-- region GasVo (Android) -->
+
+    <h2 class="color-prominent-primary mt-4">Android Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+
+        <div class="col">
+            <div class="card h-100 bg-color-primary custom-border">
+                <img class="card-img-top"
+                     src="/img/projects/gasvo-android.png"
+                     alt="Primary Screen of GasVo app">
+                </img>
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">GasVo (Android)</h5>
+                    <p class="card-text color-text-primary">A Gas Pipe Volume Calculator app for Android that adheres to
+                        the
+                        <a class="interactive-element"
+                           href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <a href="https://play.google.com/store/apps/details?id=tech.neurothrone.gasvo&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                        <img alt="Get it on Google Play"
+                             src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                             style="width: 300px;"/>
+                    </a>
+                </div>
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary"><strong>Tech</strong>: Kotlin, XML, Jetpack Compose, Room,
+                        DataStore, Dagger-Hilt</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- endregion GasVo (Android) -->
+
+    <!-- endregion Android Projects -->
 
     <!-- region Server side Swift Projects -->
     <h2 class="color-prominent-primary mt-4">Server side Swift Projects</h2>
