@@ -3,10 +3,10 @@
 
 <main class="container my-4 fs-5">
   <header class="text-center">
-    <h2 class="color-prominent-secondary">Zaid Neurothrone</h2>
-    <p><a class="interactive-element" href="mailto:zaid@neurothrone.tech">zaid@neurothrone.tech</a></p>
+    <h2 class="color-prominent-secondary">Zane Neurothrone</h2>
+    <p><a class="interactive-element" href="mailto:zane@neurothrone.tech">zane@neurothrone.tech</a></p>
     <img class="rounded-circle"
-         src="/img/zaid-primary-compressed.png"
+         src="/img/zane-primary-compressed.png"
          alt="Image of the author"
          width="200">
     </img>
