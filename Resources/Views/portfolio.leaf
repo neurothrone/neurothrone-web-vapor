@@ -206,10 +206,12 @@
                     </p>
                 </div>
                 <div class="text-center">
-                    <a href="https://play.google.com/store/apps/details?id=tech.neurothrone.gasvo&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-                        <img alt="Get it on Google Play"
-                             src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                             style="width: 300px;"/>
+                    <a href="https://play.google.com/store/apps/details?id=tech.neurothrone.gasvo&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                        <img
+                                src="/img/google-play-badge.png"
+                                alt="Get it on Google Play"
+                                style="width: auto; max-width: 250px; height: auto;"
+                        />
                     </a>
                 </div>
                 <div class="card-footer custom-border">
