@@ -4,8 +4,59 @@
         <!-- Main Content -->
 <main class="container my-4 fs-5">
 
+    <!-- region Flutter Projects -->
+    <h2 class="color-prominent-primary">Flutter Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+
+        <!-- region AGI Events -->
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top"
+                     src="/img/projects/agi-events.png"
+                     alt="Primary Screen of FastTrack app">
+                </img>
+                <div class="card-body">
+                    <h5 class="card-title h3 color-prominent-secondary">AGI Events</h5>
+                    <p class="card-text color-text-primary">An Event Viewing &amp; Lead Collection app that allows users
+                        to view upcoming and saved events, gather leads manually or via QR code scans, and export the
+                        collected data.
+                    </p>
+                    <p>Available on iOS (iPhone &amp; iPad) and Android.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://apps.apple.com/se/app/agi-events/id1603418348?itsct=apps_box_badge&amp;itscg=30200"
+                       style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
+                            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1642636800"
+                            alt="Download on the App Store"
+                            style="border-radius: 13px; width: 250px; height: 83px;"
+                    />
+                    </a>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://play.google.com/store/apps/details?id=com.agi.emjo_exhibitor&amp;hl=en&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img
+                            alt="Get it on Google Play"
+                            src="/img/google-play-badge.png"
+                            style="width: auto; max-width: 290px; height: auto;"
+                    />
+                    </a>
+                </div>
+
+                <div class="card-footer custom-border">
+                    <small class="color-text-secondary"><strong>Tech</strong>: Flutter, Firebase, NoSQL,
+                        Riverpod</small>
+                </div>
+            </div>
+        </div>
+        <!-- endregion FastTrack -->
+
+    </div>
+    <!-- endregion Flutter Projects -->
+
     <!-- region iOS Projects -->
-    <h2 class="color-prominent-primary">iOS Projects</h2>
+    <h2 class="color-prominent-primary mt-4">iOS Projects</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
 
         <!-- region FastTrack -->
@@ -210,7 +261,7 @@
                         <img
                                 src="/img/google-play-badge.png"
                                 alt="Get it on Google Play"
-                                style="width: auto; max-width: 250px; height: auto;"
+                                style="width: auto; max-width: 290px; height: auto;"
                         />
                     </a>
                 </div>
