@@ -1,0 +1,11 @@
+#extend("Shared/base"):
+        #export("content"):
+
+<main class="container my-4 fs-5">
+    <article>
+        
+    </article>
+</main>
+
+        #endexport
+        #endextend

@@ -12,6 +12,7 @@ struct WebsiteProjectsController: RouteCollection {
   func boot(routes: RoutesBuilder) throws {
     let mainRoutes = routes.grouped("portfolio")
     
+    mainRoutes.get("agi-events", use: agiEventsPage)
     mainRoutes.get("gasvo", use: gasvoPage)
     mainRoutes.get("fast-track", use: fastTrackPage)
     mainRoutes.get("we-inventory", use: weInventoryPage)
@@ -19,6 +20,15 @@ struct WebsiteProjectsController: RouteCollection {
     
     mainRoutes.get("gasvo-android", use: gasvoAndroidPage)
   }
+  
+  //MARK: - Flutter
+  
+  private func agiEventsPage(_ req: Request) async throws -> View {
+    let context = AGIEventsContext()
+    return try await req.view.render("Portfolio/agi-events", context)
+  }
+  
+  //MARK: - iOS
   
   private func fastTrackPage(_ req: Request) async throws -> View {
     let context = FastTrackContext()
@@ -48,6 +58,16 @@ struct WebsiteProjectsController: RouteCollection {
   }
 }
 
+//MARK: - Flutter Apps
+
+struct AGIEventsContext: Encodable {
+  let title = "AGI Events"
+  let now = Date()
+  let activePage: ActivePage.Project = .agiEvents
+}
+
+//MARK: - iOS Apps
+
 struct FastTrackContext: Encodable {
   let title = "FastTrack"
   let now = Date()
@@ -76,6 +96,7 @@ struct WorkWorkContext: Encodable {
 
 
 //MARK: - Android Apps
+
 extension Gasvo {
   struct GasVoAndroidContext: Encodable {
     let title = "GasVo"

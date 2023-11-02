@@ -16,7 +16,8 @@ enum ActivePage: String, Encodable {
        portfolio
   
   enum Project: String, Encodable {
-    case gasvo,
+    case agiEvents,
+         gasvo,
          gasvoAndroid,
          fastTrack,
          weInventory,
@@ -33,9 +34,6 @@ struct WebsiteController: RouteCollection {
     mainRoutes.get("contact", use: contact)
     mainRoutes.get("cv", use: cv)
     mainRoutes.get("portfolio", use: portfolio)
-
-//    routes.get(use: index)
-
   }
   
   private func index(_ req: Request) async throws -> View {
