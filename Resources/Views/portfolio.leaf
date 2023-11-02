@@ -16,7 +16,12 @@
                      alt="Demo image of AGI Events app">
                 </img>
                 <div class="card-body">
-                    <h5 class="card-title h3 color-prominent-secondary">AGI Events</h5>
+                    <h5 class="card-title h3 color-prominent-secondary">
+                        <a class="interactive-element"
+                           href="/portfolio/agi-events">
+                            AGI Events
+                        </a>
+                    </h5>
                     <p class="card-text color-text-primary">An Event Viewing &amp; Lead Collection app that allows users
                         to view upcoming and saved events, gather leads manually or via QR code scans, and export the
                         collected data.
@@ -50,7 +55,7 @@
                 </div>
             </div>
         </div>
-        <!-- endregion FastTrack -->
+        <!-- endregion AGI Events -->
 
     </div>
     <!-- endregion Flutter Projects -->
