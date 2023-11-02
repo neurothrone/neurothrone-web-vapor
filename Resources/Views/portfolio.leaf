@@ -13,7 +13,7 @@
             <div class="card h-100 custom-border bg-color-primary">
                 <img class="card-img-top"
                      src="/img/projects/agi-events.png"
-                     alt="Primary Screen of FastTrack app">
+                     alt="Demo image of AGI Events app">
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">AGI Events</h5>
