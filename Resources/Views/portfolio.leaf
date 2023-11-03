@@ -11,7 +11,7 @@
         <!-- region AGI Events -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/agi-events/ios/agi-events-ios-events-screen-no-saved.png"
                      alt="Demo image of AGI Events app">
                 </img>
@@ -67,7 +67,7 @@
         <!-- region FastTrack -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/fast-track.jpg"
                      alt="Primary Screen of FastTrack app">
                 </img>
@@ -110,7 +110,7 @@
 
         <div class="col">
             <div class="card h-100 bg-color-primary custom-border">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/gasvo-ios.jpeg"
                      alt="Primary Screen of GasVo app">
                 </img>
@@ -143,7 +143,7 @@
         <!-- region WorkWork iOS -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/workwork-ios.jpeg"
                      alt="Primary Screen of WorkWork iOS app">
                 </img>
@@ -182,7 +182,7 @@
         <!-- region WorkWork watchOS -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/workwork-watchos.png"
                      alt="Primary Screen of WorkWork watchOS app">
                 </img>
@@ -218,25 +218,6 @@
         </div>
         <!-- endregion WorkWork watchOS -->
 
-        <!-- region WeInventory -->
-        <!--    <div class="col">-->
-        <!--      <div class="card h-100 bg-color-primary custom-border">-->
-        <!--        <img class="card-img-top"-->
-        <!--             src="/img/projects/we-inventory.jpeg"-->
-        <!--             alt="...">-->
-        <!--        <div class="card-body">-->
-        <!--          <h5 class="card-title h3 color-prominent-secondary">WeInventory</h5>-->
-        <!--          <p class="card-text color-text-primary">An iOS app for tracking the items in your customizable inventories and-->
-        <!--            containing storages. Upcoming feature: Shareable Inventories. Why not share a Home inventory-->
-        <!--            with your household members.</p>-->
-        <!--        </div>-->
-        <!--        <div class="card-footer custom-border">-->
-        <!--          <small class="color-text-secondary">Swift, SwiftUI, Core Data, CloudKit</small>-->
-        <!--        </div>-->
-        <!--      </div>-->
-        <!--    </div>-->
-        <!-- endregion WeInventory -->
-
     </div>
     <!-- endregion iOS Projects -->
 
@@ -249,7 +230,7 @@
 
         <div class="col">
             <div class="card h-100 bg-color-primary custom-border">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/gasvo-android.png"
                      alt="Primary Screen of GasVo app">
                 </img>
@@ -290,14 +271,14 @@
         <!-- region neurothrone.tech -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="neurothrone-tech">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/neurothrone-tech.png"
-                     alt="This website's landing page">
+                     alt="Image of this website's contact page">
                 </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">neurothrone.tech</h5>
-                    <p class="card-text color-text-primary">Personal website built for and by Zaid Neurothrone. It hosts
-                        my portfolio and acts as a sandbox so that I can learn and experiment with REST APIs for
+                    <p class="card-text color-text-primary">Personal website built for and by Zane Neurothrone. It hosts
+                        my portfolio and acts as a sandbox so that I can learn and experiment with REST API:s for
                         different platforms and technologies.
                     </p>
                 </div>
@@ -312,7 +293,7 @@
         <!-- region GasVo Web -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="gasvo-web">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/gasvo-web.png"
                      alt="GasVo Web interface">
                 </img>
@@ -346,7 +327,7 @@
         <!-- region Weather API -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="weather-api">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/weather-api.png"
                      alt="The Web interface of Weather API">
                 </img>
@@ -373,7 +354,7 @@
         <!-- region Local Library -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="local-library">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/local-library.png"
                      alt="Web interface of Local Library">
                 </img>
@@ -400,10 +381,6 @@
         <!-- region Project AIDA -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="project-aida">
-                <!--                <img class="card-img-top"-->
-                <!--                     src=""-->
-                <!--                     alt="">-->
-                <!--                </img>-->
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">Project AIDA</h5>
                     <p class="card-text color-text-primary">A web app powered by the Django framework. It's preliminary
@@ -431,7 +408,7 @@
         <!-- region Pyhoot -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="pyhoot">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/pyhoot-uml.png"
                      alt="UML diagram of Pyhoot's data models">
                 </img>
@@ -475,7 +452,7 @@
         <!-- region Car Spare Parts Service -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="car-spare-parts-service">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/car-spare-parts-db.png"
                      alt="Database design of Car Spare Parts Service">
                 </img>
@@ -518,10 +495,6 @@
         <!-- region Project DoT -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="project-dot">
-                <img class="card-img-top"
-                     src=""
-                     alt="">
-                </img>
                 <div class="card-body">
                     <h5 class="card-title h3 color-prominent-secondary">Project DoT</h5>
                     <p class="card-text color-text-primary">A portfolio web app for the aspiring developers of
@@ -555,7 +528,7 @@
         <!-- region Zota the Ghost -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="zota-the-ghost">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/zota.png"
                      alt="Main Menu background">
                 </img>
@@ -602,7 +575,7 @@
         <!-- region Infestation -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="infestation">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/infestation.png"
                      alt="First level">
                 </img>
@@ -638,7 +611,7 @@
         <!-- region VR Conference -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="vr-conference">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/vr-conference.png"
                      alt="The Conference in Virtual Reality">
                 </img>
@@ -695,7 +668,7 @@
         <!-- region Purple Star -->
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary" id="purple-star">
-                <img class="card-img-top"
+                <img class="card-img-top border-bottom"
                      src="/img/projects/purple-star.png"
                      alt="The 3D scene">
                 </img>
