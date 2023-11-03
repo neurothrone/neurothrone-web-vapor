@@ -4,7 +4,7 @@
 <main class="container my-4 fs-5">
 
     <!-- region iOS -->
-    <h2 class="color-prominent-primary">iOS</h2>
+    <h2 class="color-prominent-primary">iOS Images</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
@@ -100,7 +100,7 @@
     <!-- endregion iOS -->
 
     <!-- region Android -->
-    <h2 class="color-prominent-primary mt-4">Android</h2>
+    <h2 class="color-prominent-primary mt-4">Android Images</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
