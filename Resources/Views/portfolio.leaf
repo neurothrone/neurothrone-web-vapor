@@ -72,7 +72,12 @@
                      alt="Primary Screen of FastTrack app">
                 </img>
                 <div class="card-body">
-                    <h5 class="card-title h3 color-prominent-secondary">FastTrack</h5>
+                    <h5 class="card-title h3 color-prominent-secondary">
+                        <a class="interactive-element"
+                           href="/portfolio/fast-track">
+                            FastTrack
+                        </a>
+                    </h5>
                     <p class="card-text color-text-primary">A Fasting Timer &amp; Tracker app for iOS. It tracks the
                         hours you are in the fasted state <span class="text-muted">(every hour after the 12th hour mark since your last meal)</span>
                         to keep you committed to reaching your weekly goal.
@@ -115,7 +120,12 @@
                      alt="Primary Screen of GasVo app">
                 </img>
                 <div class="card-body">
-                    <h5 class="card-title h3 color-prominent-secondary">GasVo (iOS)</h5>
+                    <h5 class="card-title h3 color-prominent-secondary">
+                        <a class="interactive-element"
+                           href="/portfolio/gasvo">
+                            GasVo (iOS)
+                        </a>
+                    </h5>
                     <p class="card-text color-text-primary">A Gas Pipe Volume Calculator app for iOS that adheres to the
                         <a class="interactive-element"
                            href="https://en.wikipedia.org/wiki/Nominal_Pipe_Size">NPS</a> standard.
@@ -148,7 +158,12 @@
                      alt="Primary Screen of WorkWork iOS app">
                 </img>
                 <div class="card-body">
-                    <h5 class="card-title h3 color-prominent-secondary">WorkWork (iOS)</h5>
+                    <h5 class="card-title h3 color-prominent-secondary">
+                        <a class="interactive-element"
+                           href="/portfolio/workwork">
+                            WorkWork (iOS)
+                        </a>
+                    </h5>
                     <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for iOS with a customizable
                         and intuitive user interface, and Cloud sync.
                     </p>
@@ -187,7 +202,12 @@
                      alt="Primary Screen of WorkWork watchOS app">
                 </img>
                 <div class="card-body">
-                    <h5 class="card-title h3 color-prominent-secondary">WorkWork (watchOS)</h5>
+                    <h5 class="card-title h3 color-prominent-secondary">
+                        <a class="interactive-element"
+                           href="/portfolio/workwork">
+                            WorkWork (watchOS)
+                        </a>
+                    </h5>
                     <p class="card-text color-text-primary">A Task Manager &amp; Tracker app for Apple Watch with a
                         customizable and intuitive user interface, and Cloud sync.
                     </p>
@@ -235,7 +255,12 @@
                      alt="Primary Screen of GasVo app">
                 </img>
                 <div class="card-body">
-                    <h5 class="card-title h3 color-prominent-secondary">GasVo (Android)</h5>
+                    <h5 class="card-title h3 color-prominent-secondary">
+                        <a class="interactive-element"
+                           href="/portfolio/gasvo-android">
+                            GasVo (Android)
+                        </a>
+                    </h5>
                     <p class="card-text color-text-primary">A Gas Pipe Volume Calculator app for Android that adheres to
                         the
                         <a class="interactive-element"
