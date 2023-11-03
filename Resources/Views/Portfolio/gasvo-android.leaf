@@ -2,7 +2,137 @@
         #export("content"):
 
 <main class="container my-4 fs-5">
-    <h2 class="color-prominent-primary">Privacy Policy</h2>
+
+    <!-- region Images -->
+    <h2 class="color-prominent-primary">Images</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-calculate-screen-empty.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Calculate Screen (Initial State):</span> Features an
+                        empty form for entering values to compute gas pipe volume.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-calculate-screen-filled.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Calculate Screen (With Inputs):</span> Displays the form
+                        with user-inputted values ready for calculation.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-calculate-screen-calculated.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Calculate Screen (Post-Calculation):</span> Shows the
+                        state of the form post-volume calculation with results.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-history-screen.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">History Screen (Listed Calculations):</span> Lists
+                        previous calculations stored locally on the device for easy access.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-history-screen-swipe-action.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">History Screen (Deletion Action):</span> Allows for the
+                        deletion of past calculations with a right-to-left swipe action.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-settings-screen.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Settings Screen (General):</span> Provides options to
+                        modify preferences and manage data storage.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-settings-screen-delete-dialog.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Settings Screen (Safe Delete Confirmation):</span>
+                        Features a slider mechanism that must be moved from left to right to activate the button for
+                        confirming complete data deletion.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/gasvo/android/gasvo-android-calculate-screen-old.png"
+                     alt="Demo image of GasVo app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        Depicts the GasVo app's original version, constructed with the Android View system prior to its
+                        modernization with Jetpack Compose.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- endregion Images -->
+
+    <!-- region Privacy Policy -->
+    <h2 class="color-prominent-primary mt-4">Privacy Policy</h2>
     <p>
         Zane Neurothrone built the GasVo app as
         a Free app. This SERVICE is provided by
@@ -139,6 +269,8 @@
                                  target="_blank"
                                  rel="noopener noreferrer">App Privacy Policy Generator</a>
     </p>
+    <!-- endregion Privacy Policy -->
+
 </main>
 
         #endexport
