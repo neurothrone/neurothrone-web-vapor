@@ -109,8 +109,8 @@
                 </img>
                 <div class="card-body">
                     <p class="card-text color-text-primary">
-                        <span class="color-prominent-secondary">Events Screen:</span> Grid of locally saved events and
-                        grid of coming events.
+                        <span class="color-prominent-secondary">Events Screen:</span> Displays a grid of locally saved
+                        events alongside upcoming events.
                     </p>
                 </div>
             </div>
@@ -124,8 +124,8 @@
                 </img>
                 <div class="card-body">
                     <p class="card-text color-text-primary">
-                        <span class="color-prominent-secondary">Event Detail Screen:</span> Lead actions (add lead, show
-                        lead detail and export leads) and empty List of leads.
+                        <span class="color-prominent-secondary">Event Detail Screen:</span> Features lead management
+                        actions (add a lead, view lead details, export leads) with an initially empty list of leads.
                     </p>
                 </div>
             </div>
@@ -139,8 +139,8 @@
                 </img>
                 <div class="card-body">
                     <p class="card-text color-text-primary">
-                        <span class="color-prominent-secondary">Add Lead Sheet:</span> Form to add lead through manual
-                        input.
+                        <span class="color-prominent-secondary">Add Lead Sheet:</span> Provides a form for manual entry
+                        to add a new lead to the list.
                     </p>
                 </div>
             </div>
@@ -154,7 +154,8 @@
                 </img>
                 <div class="card-body">
                     <p class="card-text color-text-primary">
-                        <span class="color-prominent-secondary">QR Scanner Sheet:</span> Add Lead through QR Code.
+                        <span class="color-prominent-secondary">QR Scanner Sheet:</span> Enables lead addition via QR
+                        code scanning.
                     </p>
                 </div>
             </div>
@@ -168,8 +169,8 @@
                 </img>
                 <div class="card-body">
                     <p class="card-text color-text-primary">
-                        <span class="color-prominent-secondary">Lead Detail Screen:</span> View Lead details and add
-                        supplementary information.
+                        <span class="color-prominent-secondary">Lead Detail Screen:</span> Presents detailed lead
+                        information with options to append supplementary data.
                     </p>
                 </div>
             </div>
@@ -183,8 +184,8 @@
                 </img>
                 <div class="card-body">
                     <p class="card-text color-text-primary">
-                        <span class="color-prominent-secondary">Event Detail Screen:</span> Lead actions (add lead, show
-                        lead detail and export leads) and populated List of leads.
+                        <span class="color-prominent-secondary">Event Detail Screen:</span> Offers lead management
+                        actions (add a lead, view lead details, export leads) and shows a populated list of leads.
                     </p>
                 </div>
             </div>
