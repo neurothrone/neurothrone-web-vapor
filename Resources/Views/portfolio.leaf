@@ -68,7 +68,7 @@
         <div class="col">
             <div class="card h-100 custom-border bg-color-primary">
                 <img class="card-img-top border-bottom"
-                     src="/img/projects/fast-track.jpg"
+                     src="/img/projects/fast-track/fast-track-ios-active-week-screen.png"
                      alt="Primary Screen of FastTrack app">
                 </img>
                 <div class="card-body">
@@ -251,7 +251,7 @@
         <div class="col">
             <div class="card h-100 bg-color-primary custom-border">
                 <img class="card-img-top border-bottom"
-                     src="/img/projects/gasvo-android.png"
+                     src="/img/projects/gasvo/android/gasvo-android-calculate-screen-empty.png"
                      alt="Primary Screen of GasVo app">
                 </img>
                 <div class="card-body">
