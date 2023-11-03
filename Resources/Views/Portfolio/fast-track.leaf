@@ -1,8 +1,109 @@
 #extend("Shared/base"):
-#export("content"):
+        #export("content"):
 
 <main class="container my-4 fs-5">
-    <h2 class="color-prominent-primary">Privacy Policy</h2>
+
+    <!-- region Images -->
+    <h2 class="color-prominent-primary">Images</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/fast-track/fast-track-ios-onboarding-screen.png"
+                     alt="Demo image of FastTrack app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Onboarding Screen:</span> Provides information and the
+                        option to set your weekly fasted state goal.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/fast-track/fast-track-ios-active-week-screen.png"
+                     alt="Demo image of FastTrack app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Active Week Screen:</span> Tracks the fasted state
+                        progress of your active week and swipe actions to start, reset or stop a current fasting
+                        session.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/fast-track/fast-track-ios-active-week-screen-light.png"
+                     alt="Demo image of FastTrack app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Active Week Screen (Light):</span> Tracks your active
+                        week's fasted state progress with swipe actions to start, reset, or stop the current fasting
+                        session.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/fast-track/fast-track-ios-all-weeks-screen.png"
+                     alt="Demo image of FastTrack app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">All Week Screen:</span> List of weeks with corresponding
+                        total fasted state hours.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/fast-track/fast-track-ios-week-detail-screen.png"
+                     alt="Demo image of FastTrack app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Week Detail Screen:</span> Displays a detailed list of
+                        fasting sessions for the selected week, including durations and start/end times.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/fast-track/fast-track-ios-settings-screen.png"
+                     alt="Demo image of FastTrack app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Settings Screen:</span> Allows customization of app
+                        experience: adjust preferences, manage data, or access Siri Shortcuts for app-specific
+                        commands.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- endregion Images -->
+
+    <!-- region Privacy Policy -->
+    <h2 class="color-prominent-primary mt-4">Privacy Policy</h2>
     <p>
         Zane Neurothrone built the FastTrack: Fast Timer/Tracker app as
         a Free app. This SERVICE is provided by
@@ -137,7 +238,9 @@
                                  href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank"
                                  rel="noopener noreferrer">App Privacy Policy Generator</a>
     </p>
+    <!-- endregion Privacy Policy -->
+
 </main>
 
-#endexport
-#endextend
+        #endexport
+        #endextend
