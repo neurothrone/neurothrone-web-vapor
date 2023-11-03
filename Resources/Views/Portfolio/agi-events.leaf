@@ -2,9 +2,197 @@
         #export("content"):
 
 <main class="container my-4 fs-5">
-    <article>
-        
-    </article>
+
+    <!-- region iOS -->
+    <h2 class="color-prominent-primary">iOS</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/ios/agi-events-ios-events-screen-no-saved.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Events Screen:</span> Grid of locally saved events and
+                        grid of coming events.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/ios/agi-events-ios-leads-screen-empty.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Event Detail Screen:</span> Lead actions (add lead, show
+                        lead detail and export leads) and empty List of leads.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/ios/agi-events-ios-add-lead-filled.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Add Lead Sheet:</span> Form to add lead through manual
+                        input.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/ios/agi-events-ios-scan-visitor.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">QR Scanner Sheet:</span> Add Lead through QR Code.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/ios/agi-events-ios-lead-detail.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Lead Detail Screen:</span> View Lead details and add
+                        supplementary information.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/ios/agi-events-ios-leads-screen-populated.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Event Detail Screen:</span> Lead actions (add lead, show
+                        lead detail and export leads) and populated List of leads.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- endregion iOS -->
+
+    <!-- region Android -->
+    <h2 class="color-prominent-primary mt-4">Android</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-2">
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/android/agi-events-android-events-screen-no-saved.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Events Screen:</span> Grid of locally saved events and
+                        grid of coming events.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/android/agi-events-android-leads-screen-empty.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Event Detail Screen:</span> Lead actions (add lead, show
+                        lead detail and export leads) and empty List of leads.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/android/agi-events-android-add-lead-filled.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Add Lead Sheet:</span> Form to add lead through manual
+                        input.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/android/agi-events-android-scan-visitor.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">QR Scanner Sheet:</span> Add Lead through QR Code.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/android/agi-events-android-lead-detail.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Lead Detail Screen:</span> View Lead details and add
+                        supplementary information.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 custom-border bg-color-primary">
+                <img class="card-img-top border-bottom"
+                     src="/img/projects/agi-events/android/agi-events-android-leads-screen-populated.png"
+                     alt="Demo image of AGI Events app">
+                </img>
+                <div class="card-body">
+                    <p class="card-text color-text-primary">
+                        <span class="color-prominent-secondary">Event Detail Screen:</span> Lead actions (add lead, show
+                        lead detail and export leads) and populated List of leads.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- endregion Android -->
+
 </main>
 
         #endexport
